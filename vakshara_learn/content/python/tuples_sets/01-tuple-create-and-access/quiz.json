@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "Which expression creates a one-item tuple?",
+    "options": [
+      "(5)",
+      "(5,)",
+      "[5]",
+      "{5}"
+    ],
+    "answer": 1,
+    "whyEn": "The comma creates the tuple; parentheses alone do not.",
+    "whyHi": "Comma tuple banata hai; sirf parentheses se integer hi rehta hai.",
+    "promptHi": "Single-item tuple banane ke liye kaunsi expression sahi hai?",
+    "optionsHi": [
+      "(5)",
+      "(5,)",
+      "[5]",
+      "{5}"
+    ]
+  },
+  {
+    "prompt": "Does tuple slicing return a new tuple?",
+    "options": [
+      "Yes",
+      "No, it changes the original",
+      "It returns a list",
+      "It returns None"
+    ],
+    "answer": 0,
+    "whyEn": "Slicing a tuple creates a new tuple with the selected items.",
+    "whyHi": "Tuple slicing selected items ki nayi tuple banati hai.",
+    "promptHi": "Kya tuple slicing ek naya tuple return karti hai?",
+    "optionsHi": [
+      "Haan",
+      "No, it changes the original",
+      "It returns a list",
+      "It returns None"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about tuple basics and accessing items?",
+    "promptHi": "Tuple basics and accessing items ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "Tuple item assignment is not allowed.",
+      "A contained list can still be mutated because the list itself is mutable.",
+      "Tuples are commonly written with commas; parentheses improve clarity.",
+      "count() counts occurrences; index() finds the first matching position."
+    ],
+    "optionsHi": [
+      "Tuple item assignment allowed nahi hai.",
+      "Tuple ke andar list ho toh list mutate ho sakti hai, kyunki list khud mutable hai.",
+      "Tuple comma se define hoti hai; parentheses readability badhate hain.",
+      "count() occurrences count karta hai; index() first matching position deta hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Tuple basics and accessing items. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Tuple basics and accessing items ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "Tuple item assignment is not allowed.",
+      "A contained list can still be mutated because the list itself is mutable.",
+      "count() counts occurrences; index() finds the first matching position.",
+      "A one-item tuple needs a trailing comma: (5,)."
+    ],
+    "optionsHi": [
+      "Tuple item assignment allowed nahi hai.",
+      "Tuple ke andar list ho toh list mutate ho sakti hai, kyunki list khud mutable hai.",
+      "count() occurrences count karta hai; index() first matching position deta hai.",
+      "One-item tuple ke liye trailing comma zaroori hai: (5,)."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Tuple basics and accessing items. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Tuple basics and accessing items ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "Indexing and slicing work like other sequences.",
+      "Tuple item assignment is not allowed.",
+      "A contained list can still be mutated because the list itself is mutable.",
+      "count() counts occurrences; index() finds the first matching position."
+    ],
+    "optionsHi": [
+      "Indexing aur slicing doosri sequences ki tarah hoti hai.",
+      "Tuple item assignment allowed nahi hai.",
+      "Tuple ke andar list ho toh list mutate ho sakti hai, kyunki list khud mutable hai.",
+      "count() occurrences count karta hai; index() first matching position deta hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in Tuple basics and accessing items. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Tuple basics and accessing items ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

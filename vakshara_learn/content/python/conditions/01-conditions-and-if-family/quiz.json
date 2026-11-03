@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "When does the block under if run?",
+    "options": [
+      "Always",
+      "When the condition is True",
+      "When the condition is False",
+      "Only after else"
+    ],
+    "answer": 1,
+    "whyEn": "The if suite executes when its condition evaluates to a true value.",
+    "whyHi": "if ka block tab execute hota hai jab condition truthy ho.",
+    "promptHi": "if ke neeche wala block kab run hota hai?",
+    "optionsHi": [
+      "Hamesha",
+      "Jab condition True ho",
+      "Jab condition False ho",
+      "Sirf else ke baad"
+    ]
+  },
+  {
+    "prompt": "What is elif short for?",
+    "options": [
+      "Else loop",
+      "Else if",
+      "End if",
+      "Either if"
+    ],
+    "answer": 1,
+    "whyEn": "elif means “else if” and tests another condition in the chain.",
+    "whyHi": "elif ka matlab “else if” hai; ye next condition test karta hai.",
+    "promptHi": "elif ka full form kya hai?",
+    "optionsHi": [
+      "Else loop",
+      "Else if",
+      "End if",
+      "Either if"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about conditions and if statements?",
+    "promptHi": "Conditions and if statements ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "and requires both operands to be true.",
+      "or requires at least one operand to be true.",
+      "not reverses a truth value.",
+      "if runs its block when the condition is True."
+    ],
+    "optionsHi": [
+      "and ke liye dono conditions True honi chahiye.",
+      "or ke liye kam se kam ek condition True honi chahiye.",
+      "not truth value ko reverse karta hai.",
+      "if ka block tab chalta hai jab condition True ho."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Conditions and if statements. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Conditions and if statements ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "else handles the remaining case.",
+      "and requires both operands to be true.",
+      "or requires at least one operand to be true.",
+      "not reverses a truth value."
+    ],
+    "optionsHi": [
+      "else remaining case handle karta hai.",
+      "and ke liye dono conditions True honi chahiye.",
+      "or ke liye kam se kam ek condition True honi chahiye.",
+      "not truth value ko reverse karta hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in Conditions and if statements. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Conditions and if statements ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "and requires both operands to be true.",
+      "elif checks another condition when earlier conditions were False.",
+      "or requires at least one operand to be true.",
+      "not reverses a truth value."
+    ],
+    "optionsHi": [
+      "and ke liye dono conditions True honi chahiye.",
+      "Pehle checks False hon toh elif next condition check karta hai.",
+      "or ke liye kam se kam ek condition True honi chahiye.",
+      "not truth value ko reverse karta hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Conditions and if statements. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Conditions and if statements ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

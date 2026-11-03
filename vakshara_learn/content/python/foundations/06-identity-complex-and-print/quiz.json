@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "Which operator checks whether two names refer to the same object?",
+    "options": [
+      "==",
+      "is",
+      "in",
+      ">="
+    ],
+    "answer": 1,
+    "whyEn": "is tests object identity; == tests value equality.",
+    "whyHi": "is object identity check karta hai; == value equality.",
+    "promptHi": "Kaunsa operator check karta hai ki do names same object ko refer karte hain?",
+    "optionsHi": [
+      "==",
+      "is",
+      "in",
+      ">="
+    ]
+  },
+  {
+    "prompt": "Which value is a Python complex number?",
+    "options": [
+      "3 + 4j",
+      "\"3 + 4j\"",
+      "3.4",
+      "True"
+    ],
+    "answer": 0,
+    "whyEn": "The j suffix marks the imaginary part in a complex literal.",
+    "whyHi": "Complex literal mein j imaginary part ko mark karta hai.",
+    "promptHi": "Inmein se kaunsi value Python complex number hai?",
+    "optionsHi": [
+      "3 + 4j",
+      "\"3 + 4j\"",
+      "3.4",
+      "True"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about identity, swapping, complex numbers and output?",
+    "promptHi": "Identity, swapping, complex numbers and output ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "Use type(value) to inspect a value.",
+      "== checks equality; is checks identity.",
+      "25 is an int; \"25\" is a str.",
+      "Python is dynamically typed: you assign a value without declaring a type first."
+    ],
+    "optionsHi": [
+      "type(value) se value ka type check hota hai.",
+      "== values equal hain ya nahi check karta hai; is same object identity check karta hai.",
+      "25 integer hai, jabki \"25\" text/string hai.",
+      "Python dynamically typed hai: value assign karte hi variable us value ko refer karta hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Identity, swapping, complex numbers and output. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Identity, swapping, complex numbers and output ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "Use type(value) to inspect a value.",
+      "25 is an int; \"25\" is a str.",
+      "Python can swap two variables with tuple unpacking.",
+      "Python is dynamically typed: you assign a value without declaring a type first."
+    ],
+    "optionsHi": [
+      "type(value) se value ka type check hota hai.",
+      "25 integer hai, jabki \"25\" text/string hai.",
+      "Tuple unpacking se Python mein do variables swap ho sakte hain.",
+      "Python dynamically typed hai: value assign karte hi variable us value ko refer karta hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Identity, swapping, complex numbers and output. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Identity, swapping, complex numbers and output ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "Use type(value) to inspect a value.",
+      "25 is an int; \"25\" is a str.",
+      "Python is dynamically typed: you assign a value without declaring a type first.",
+      "Complex values use j for the imaginary part."
+    ],
+    "optionsHi": [
+      "type(value) se value ka type check hota hai.",
+      "25 integer hai, jabki \"25\" text/string hai.",
+      "Python dynamically typed hai: value assign karte hi variable us value ko refer karta hai.",
+      "Complex number mein imaginary part ke liye j use hota hai."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Identity, swapping, complex numbers and output. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Identity, swapping, complex numbers and output ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "What is bool(\"\")?",
+    "options": [
+      "True",
+      "False",
+      "None",
+      "Error"
+    ],
+    "answer": 1,
+    "whyEn": "An empty string is a falsy value.",
+    "whyHi": "Empty string falsy hoti hai, isliye bool(\"\") False hai.",
+    "promptHi": "bool(\"\") ka result kya hota hai?",
+    "optionsHi": [
+      "True",
+      "False",
+      "None",
+      "Error"
+    ]
+  },
+  {
+    "prompt": "Why should invalid marks be checked before assigning a grade?",
+    "options": [
+      "To make code slower",
+      "To prevent out-of-range values receiving a valid grade",
+      "Because elif is not allowed",
+      "Because input is always numeric"
+    ],
+    "answer": 1,
+    "whyEn": "Validation prevents values such as negative marks or values above the maximum from falling into a grade branch.",
+    "whyHi": "Validation se negative ya maximum se zyada marks galti se valid grade nahi lete.",
+    "promptHi": "Grade assign karne se pehle invalid marks check karna kyun zaroori hai?",
+    "optionsHi": [
+      "To make code slower",
+      "To prevent out-of-range values receiving a valid grade",
+      "Because elif is not allowed",
+      "Because input is always numeric"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about truthy, falsy values and common mistakes?",
+    "promptHi": "Truthy, falsy values and common mistakes ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "An empty string is falsy; a non-empty string is truthy.",
+      "if runs its block when the condition is True.",
+      "else handles the remaining case.",
+      "elif checks another condition when earlier conditions were False."
+    ],
+    "optionsHi": [
+      "Empty string falsy hoti hai; non-empty string truthy.",
+      "if ka block tab chalta hai jab condition True ho.",
+      "else remaining case handle karta hai.",
+      "Pehle checks False hon toh elif next condition check karta hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in Truthy, falsy values and common mistakes. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Truthy, falsy values and common mistakes ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "if runs its block when the condition is True.",
+      "Zero is falsy; non-zero numbers are truthy.",
+      "else handles the remaining case.",
+      "elif checks another condition when earlier conditions were False."
+    ],
+    "optionsHi": [
+      "if ka block tab chalta hai jab condition True ho.",
+      "Zero falsy hota hai; non-zero numbers truthy.",
+      "else remaining case handle karta hai.",
+      "Pehle checks False hon toh elif next condition check karta hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Truthy, falsy values and common mistakes. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Truthy, falsy values and common mistakes ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "if runs its block when the condition is True.",
+      "else handles the remaining case.",
+      "Check invalid input before assigning categories.",
+      "elif checks another condition when earlier conditions were False."
+    ],
+    "optionsHi": [
+      "if ka block tab chalta hai jab condition True ho.",
+      "else remaining case handle karta hai.",
+      "Invalid input ko category assign karne se pehle check karein.",
+      "Pehle checks False hon toh elif next condition check karta hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Truthy, falsy values and common mistakes. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Truthy, falsy values and common mistakes ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

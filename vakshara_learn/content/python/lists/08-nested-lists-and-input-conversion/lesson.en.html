@@ -1,0 +1,6 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>Nested lists and input conversion</h1><p>A nested list contains lists as items, often representing rows and columns. split() turns typed text into pieces; convert each piece explicitly when numbers are needed.</p><h2>Real-life example</h2><p>A nested list is like a spreadsheet: the outer list contains rows, and each row contains columns. To reach one cell, choose a row and then a column.</p><h2>Step-by-step explanation</h2><ol><li>marks[1] selects the second row: [90, 88].</li><li>The next [0] selects the first value of that row: 90.</li><li>split() creates text pieces; int() converts each piece to a number.</li></ol><h2>Python example</h2><pre><code>marks = [[80, 75], [90, 88]]
+print(marks[1][0])
+text = &quot;12 15 18&quot;
+numbers = [int(part) for part in text.split()]
+print(numbers)</code></pre><h2>Expected output</h2><pre>90
+[12, 15, 18]</pre><h2>Common mistake</h2><p>marks[1][0] means row 1, column 0 using zero-based indexing. It does not mean first row, first column.</p><h2>Remember this</h2><p>Nested access = outer index first, inner index second. Convert input pieces before numeric work.</p></article>

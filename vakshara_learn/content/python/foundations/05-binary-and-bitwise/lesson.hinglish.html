@@ -1,0 +1,7 @@
+<article class="vakshara-lesson"><p class="eyebrow">BILKUL BASIC SE</p><h1>Binary numbers and bitwise operators</h1><p>Bitwise operators integers ke binary bits par kaam karte hain. AND, OR, XOR, NOT ya shift lagane se pehle bits ko position ke hisaab se align karke dekhein.</p><h2>Real-life example</h2><p>Do rows mein chhote switches socho. Har switch OFF (0) ya ON (1) hota hai. Bitwise operator same position wale switches compare karta hai.</p><h2>Step-by-step samjhaav</h2><ol><li>5 ko 4 bits mein 0101 aur 3 ko 0011 likhte hain.</li><li>AND mein dono bits 1 hon tabhi 1 milta hai: 0001 = 1.</li><li>OR mein kisi ek bit ke 1 hone par 1 milta hai: 0111 = 7. XOR different bits par 1 deta hai: 0110 = 6.</li></ol><h2>Python example</h2><pre><code>a = 5       # binary: 0101
+b = 3       # binary: 0011
+print(a &amp; b)
+print(a | b)
+print(a ^ b)</code></pre><h2>Expected output</h2><pre>1
+7
+6</pre><h2>Common mistake</h2><p>and/or Boolean logic hain; &amp;/| bitwise operators hain. Dono alag hain.</p><h2>Yaad rakho</h2><p>AND = dono; OR = kam se kam ek; XOR = different. Calculation se pehle bits align karo.</p></article>

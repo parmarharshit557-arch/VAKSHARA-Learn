@@ -1,0 +1,6 @@
+<article class="vakshara-lesson"><p class="eyebrow">BILKUL BASIC SE</p><h1>Local, global scope and return values</h1><p>Scope batata hai ki variable name program ke kis region mein accessible hai. Function global name read kar sakta hai, local name bana sakta hai aur result return kar sakta hai. Unnecessary global state ke bajaye parameters aur return prefer karein.</p><h2>Real-life example</h2><p>Function chhoti work desk jaisa hai. Us desk par bana variable local hai. Global name desk ke bahar shared room mein hai. Return value finished result wapas dena hai.</p><h2>Step-by-step samjhaav</h2><ol><li>price parameter function call ke liye local hota hai.</li><li>tax local variable hai; tax_rate module/global scope se read hota hai.</li><li>return 105.0 caller ko wapas bhejta hai.</li></ol><h2>Python example</h2><pre><code>tax_rate = 0.05
+def total_with_tax(price):
+    tax = price * tax_rate
+    return price + tax
+
+print(total_with_tax(100))</code></pre><h2>Expected output</h2><pre>105.0</pre><h2>Common mistake</h2><p>print() value screen par dikhata hai; return calling code ko value wapas deta hai. Dono same nahi.</p><h2>Yaad rakho</h2><p>Local function call ka hota hai; return result ko bahar bhejta hai.</p></article>

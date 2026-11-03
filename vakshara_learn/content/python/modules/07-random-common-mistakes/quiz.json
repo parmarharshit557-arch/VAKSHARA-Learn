@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "Which function selects k unique items without replacement?",
+    "options": [
+      "choice()",
+      "sample()",
+      "shuffle()",
+      "random()"
+    ],
+    "answer": 1,
+    "whyEn": "sample() returns k unique selections from the population.",
+    "whyHi": "sample() population se k unique selections deta hai.",
+    "promptHi": "Without replacement k unique items select karne ke liye kaunsa function hai?",
+    "optionsHi": [
+      "choice()",
+      "sample()",
+      "shuffle()",
+      "random()"
+    ]
+  },
+  {
+    "prompt": "Why is shuffled = random.shuffle(items) a mistake if you expect a list?",
+    "options": [
+      "shuffle returns None",
+      "shuffle returns a number",
+      "shuffle sorts items",
+      "shuffle creates a tuple"
+    ],
+    "answer": 0,
+    "whyEn": "shuffle() modifies items in place and returns None.",
+    "whyHi": "shuffle() items ko in-place modify karke None return karta hai.",
+    "promptHi": "Agar shuffled mein nayi list expect kar rahe hain, toh shuffled = random.shuffle(items) galat kyun hai?",
+    "optionsHi": [
+      "shuffle returns None",
+      "shuffle returns a number",
+      "shuffle items sort karta hai",
+      "shuffle tuple banata hai"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about common random module mistakes?",
+    "promptHi": "Common random module mistakes ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "import math then math.sqrt(25) uses the module name.",
+      "randint() includes the upper endpoint; randrange() excludes stop.",
+      "from math import sqrt imports the selected name directly.",
+      "Aliases such as import math as m shorten a module reference."
+    ],
+    "optionsHi": [
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "randint() upper endpoint include karta hai; randrange() stop exclude karta hai.",
+      "from math import sqrt selected name directly import karta hai.",
+      "import math as m jaisa alias module reference short karta hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Common random module mistakes. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Common random module mistakes ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "import math then math.sqrt(25) uses the module name.",
+      "from math import sqrt imports the selected name directly.",
+      "sample() selects without replacement.",
+      "Aliases such as import math as m shorten a module reference."
+    ],
+    "optionsHi": [
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "from math import sqrt selected name directly import karta hai.",
+      "sample() without replacement select karta hai.",
+      "import math as m jaisa alias module reference short karta hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Common random module mistakes. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Common random module mistakes ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "import math then math.sqrt(25) uses the module name.",
+      "from math import sqrt imports the selected name directly.",
+      "Aliases such as import math as m shorten a module reference.",
+      "shuffle() changes the list in place; do not assign its return value."
+    ],
+    "optionsHi": [
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "from math import sqrt selected name directly import karta hai.",
+      "import math as m jaisa alias module reference short karta hai.",
+      "shuffle() list ko in-place change karta hai; uska return assign na karein."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Common random module mistakes. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Common random module mistakes ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

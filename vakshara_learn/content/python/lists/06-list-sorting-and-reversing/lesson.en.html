@@ -1,0 +1,7 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>Sorting and reversing lists</h1><p>Sorting orders values; reversing only changes their current order. sort() changes the list in place and returns None, while sorted() returns a new sorted list.</p><h2>Real-life example</h2><p>Sorting is arranging books alphabetically. Reversing is simply turning the current row around. They are not the same action.</p><h2>Step-by-step explanation</h2><ol><li>sorted(scores) returns a new sorted list.</li><li>The original scores list is still unchanged after sorted().</li><li>sort() changes the original list in place.</li></ol><h2>Python example</h2><pre><code>scores = [40, 10, 30, 20]
+print(sorted(scores))
+print(scores)
+scores.sort()
+print(scores)</code></pre><h2>Expected output</h2><pre>[10, 20, 30, 40]
+[40, 10, 30, 20]
+[10, 20, 30, 40]</pre><h2>Common mistake</h2><p>sort() changes the list and returns None. Do not write scores = scores.sort().</p><h2>Remember this</h2><p>sorted() gives a new list; list.sort() changes the existing list.</p></article>

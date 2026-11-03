@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "What unit do math.sin() and math.cos() expect?",
+    "options": [
+      "Degrees",
+      "Radians",
+      "Percentages",
+      "Turns"
+    ],
+    "answer": 1,
+    "whyEn": "The math trigonometric functions take angles in radians.",
+    "whyHi": "math ke trigonometric functions radians mein angle lete hain.",
+    "promptHi": "math.sin() aur math.cos() kaunsi unit expect karte hain?",
+    "optionsHi": [
+      "Degrees",
+      "Radians",
+      "Percentages",
+      "Turns"
+    ]
+  },
+  {
+    "prompt": "Which function finds the greatest common divisor?",
+    "options": [
+      "math.lcm()",
+      "math.gcd()",
+      "math.comb()",
+      "math.perm()"
+    ],
+    "answer": 1,
+    "whyEn": "gcd() returns the greatest common divisor of integer arguments.",
+    "whyHi": "gcd() integers ka greatest common divisor deta hai.",
+    "promptHi": "Greatest common divisor nikalne ke liye kaunsa function hai?",
+    "optionsHi": [
+      "math.lcm()",
+      "math.gcd()",
+      "math.comb()",
+      "math.perm()"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about math module: number theory, logs, trigonometry and distance?",
+    "promptHi": "Math module: number theory, logs, trigonometry and distance ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "factorial(), gcd(), lcm(), comb() and perm() answer different number-theory questions.",
+      "import math then math.sqrt(25) uses the module name.",
+      "from math import sqrt imports the selected name directly.",
+      "Aliases such as import math as m shorten a module reference."
+    ],
+    "optionsHi": [
+      "factorial(), gcd(), lcm(), comb() aur perm() alag number-theory problems solve karte hain.",
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "from math import sqrt selected name directly import karta hai.",
+      "import math as m jaisa alias module reference short karta hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in Math module: number theory, logs, trigonometry and distance. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Math module: number theory, logs, trigonometry and distance ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "import math then math.sqrt(25) uses the module name.",
+      "math.log(x) is the natural logarithm by default.",
+      "from math import sqrt imports the selected name directly.",
+      "Aliases such as import math as m shorten a module reference."
+    ],
+    "optionsHi": [
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "math.log(x) default mein natural logarithm deta hai.",
+      "from math import sqrt selected name directly import karta hai.",
+      "import math as m jaisa alias module reference short karta hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Math module: number theory, logs, trigonometry and distance. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Math module: number theory, logs, trigonometry and distance ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "import math then math.sqrt(25) uses the module name.",
+      "from math import sqrt imports the selected name directly.",
+      "math.sin(), cos() and tan() expect radians.",
+      "Aliases such as import math as m shorten a module reference."
+    ],
+    "optionsHi": [
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "from math import sqrt selected name directly import karta hai.",
+      "math.sin(), cos(), tan() radians expect karte hain.",
+      "import math as m jaisa alias module reference short karta hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Math module: number theory, logs, trigonometry and distance. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Math module: number theory, logs, trigonometry and distance ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

@@ -1,0 +1,6 @@
+<article class="vakshara-lesson"><p class="eyebrow">BILKUL BASIC SE</p><h1>List slicing</h1><p>Slicing items ka range select karke nayi list return karti hai. Stop index exclude hota hai; step se items skip ya reverse direction mein read kar sakte hain.</p><h2>Real-life example</h2><p>Paanch seats ki row socho. Slice start aur stop positions se continuous seats select karta hai; stop wali seat include nahi hoti.</p><h2>Step-by-step samjhaav</h2><ol><li>[1:4] index 1 se start hota hai aur 4 se pehle rukta hai.</li><li>[:3] default start 0 leta hai aur 3 se pehle rukta hai.</li><li>[::2] har doosra item select karta hai.</li></ol><h2>Python example</h2><pre><code>colors = [&quot;red&quot;, &quot;blue&quot;, &quot;green&quot;, &quot;gold&quot;, &quot;white&quot;]
+print(colors[1:4])
+print(colors[:3])
+print(colors[::2])</code></pre><h2>Expected output</h2><pre>[&#x27;blue&#x27;, &#x27;green&#x27;, &#x27;gold&#x27;]
+[&#x27;red&#x27;, &#x27;blue&#x27;, &#x27;green&#x27;]
+[&#x27;red&#x27;, &#x27;green&#x27;, &#x27;white&#x27;]</pre><h2>Common mistake</h2><p>Stop index exclude hota hai. Isliye items[0:3] teen items deta hai, chaar nahi.</p><h2>Yaad rakho</h2><p>Slice syntax [start:stop:step] hai; stop boundary hai, selected index nahi.</p></article>

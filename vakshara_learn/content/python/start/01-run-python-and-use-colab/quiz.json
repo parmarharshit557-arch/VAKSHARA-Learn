@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "What is a code cell in a notebook used for?",
+    "promptHi": "Notebook mein code cell kis kaam aata hai?",
+    "options": [
+      "Writing and running code",
+      "Storing only photographs",
+      "Changing the laptop battery",
+      "Creating a keyboard shortcut"
+    ],
+    "optionsHi": [
+      "Code likhne aur run karne ke liye",
+      "Sirf photos store karne ke liye",
+      "Laptop battery change karne ke liye",
+      "Keyboard shortcut banane ke liye"
+    ],
+    "answer": 0,
+    "whyEn": "A code cell holds Python statements that you can execute.",
+    "whyHi": "Code cell mein Python statements likhte hain aur execute karte hain."
+  },
+  {
+    "prompt": "Where does a notebook usually show a cell’s output?",
+    "promptHi": "Notebook aam taur par cell ka output kahan dikhata hai?",
+    "options": [
+      "Below the cell",
+      "Only in the file name",
+      "Inside the keyboard",
+      "On another person’s screen"
+    ],
+    "optionsHi": [
+      "Cell ke neeche",
+      "Sirf file name mein",
+      "Keyboard ke andar",
+      "Kisi aur ki screen par"
+    ],
+    "answer": 0,
+    "whyEn": "The result is displayed under the cell that ran it.",
+    "whyHi": "Jis cell ko run kiya uska result aam taur par uske neeche dikhta hai."
+  },
+  {
+    "prompt": "Which shortcut commonly runs a Google Colab cell?",
+    "promptHi": "Google Colab cell run karne ka common shortcut kya hai?",
+    "options": [
+      "Shift + Enter",
+      "Ctrl + C",
+      "Alt + F4",
+      "Caps Lock"
+    ],
+    "optionsHi": [
+      "Shift + Enter",
+      "Ctrl + C",
+      "Alt + F4",
+      "Caps Lock"
+    ],
+    "answer": 0,
+    "whyEn": "Shift + Enter runs the selected Colab cell and moves to the next one.",
+    "whyHi": "Shift + Enter selected Colab cell run karta hai aur next cell par le ja sakta hai."
+  },
+  {
+    "prompt": "Why can running notebook cells out of order cause confusion?",
+    "promptHi": "Notebook cells out of order run karne se confusion kyun ho sakta hai?",
+    "options": [
+      "A variable may not have been created yet",
+      "Python stops supporting numbers",
+      "All comments disappear",
+      "The notebook turns into a PDF"
+    ],
+    "optionsHi": [
+      "Variable abhi create hi nahi hua ho sakta hai",
+      "Python numbers support karna band kar deta hai",
+      "Saare comments gayab ho jaate hain",
+      "Notebook PDF ban jaata hai"
+    ],
+    "answer": 0,
+    "whyEn": "A later cell may depend on a variable created by an earlier cell.",
+    "whyHi": "Later cell kisi aise variable par depend kar sakta hai jo earlier cell mein create hua tha."
+  },
+  {
+    "prompt": "Can the same basic Python statement run in Colab and a local .py file?",
+    "promptHi": "Kya same basic Python statement Colab aur local .py file dono mein run ho sakta hai?",
+    "options": [
+      "Yes, with the appropriate environment",
+      "No, Python syntax changes completely",
+      "Only if it contains a picture",
+      "Only on one particular brand of laptop"
+    ],
+    "optionsHi": [
+      "Haan, suitable environment ke saath",
+      "Nahi, Python syntax poori change ho jaati hai",
+      "Sirf picture ho toh",
+      "Sirf ek laptop brand par"
+    ],
+    "answer": 0,
+    "whyEn": "The Python language is the same; the way you launch and manage the environment differs.",
+    "whyHi": "Python language same hai; environment launch/manage karne ka tareeka alag hota hai."
+  }
+]

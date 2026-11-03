@@ -1,0 +1,6 @@
+<article class="vakshara-lesson"><p class="eyebrow">BILKUL BASIC SE</p><h1>Nested lists and input conversion</h1><p>Nested list mein items ke roop mein doosri lists hoti hain, jo rows/columns represent kar sakti hain. split() typed text ko pieces mein todta hai; number chahiye toh har piece convert karein.</p><h2>Real-life example</h2><p>Nested list spreadsheet jaisi hai: outer list rows rakhti hai, har row columns. Ek cell tak pahunchne ke liye pehle row, phir column choose karo.</p><h2>Step-by-step samjhaav</h2><ol><li>marks[1] second row [90, 88] select karta hai.</li><li>Uske baad [0] us row ka first value 90 select karta hai.</li><li>split() text ke pieces banata hai; int() har piece ko number karta hai.</li></ol><h2>Python example</h2><pre><code>marks = [[80, 75], [90, 88]]
+print(marks[1][0])
+text = &quot;12 15 18&quot;
+numbers = [int(part) for part in text.split()]
+print(numbers)</code></pre><h2>Expected output</h2><pre>90
+[12, 15, 18]</pre><h2>Common mistake</h2><p>marks[1][0] ka matlab zero-based indexing mein row 1, column 0 hai. Ye first row/first column nahi.</p><h2>Yaad rakho</h2><p>Nested access = pehle outer index, phir inner index. Numeric work se pehle input pieces convert karo.</p></article>

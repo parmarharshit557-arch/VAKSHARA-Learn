@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "For one bit, what is 1 & 1?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "True only"
+    ],
+    "answer": 1,
+    "whyEn": "Bitwise AND is 1 only when both bits are 1.",
+    "whyHi": "Bitwise AND mein dono bits 1 hon toh result 1 hota hai.",
+    "promptHi": "Single bit ke liye 1 & 1 ka result kya hoga?",
+    "optionsHi": [
+      "0",
+      "1",
+      "2",
+      "True only"
+    ]
+  },
+  {
+    "prompt": "What is 1 ^ 1 in bitwise XOR?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "-1"
+    ],
+    "answer": 0,
+    "whyEn": "XOR returns 1 when the two bits differ; equal bits give 0.",
+    "whyHi": "XOR different bits par 1 deta hai; same bits ka result 0 hota hai.",
+    "promptHi": "Bitwise XOR mein 1 ^ 1 ka result kya hoga?",
+    "optionsHi": [
+      "0",
+      "1",
+      "2",
+      "-1"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about binary numbers and bitwise operators?",
+    "promptHi": "Binary numbers and bitwise operators ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "Use type(value) to inspect a value.",
+      "AND gives 1 only when both aligned bits are 1.",
+      "25 is an int; \"25\" is a str.",
+      "Python is dynamically typed: you assign a value without declaring a type first."
+    ],
+    "optionsHi": [
+      "type(value) se value ka type check hota hai.",
+      "AND tab 1 deta hai jab dono matching bits 1 hon.",
+      "25 integer hai, jabki \"25\" text/string hai.",
+      "Python dynamically typed hai: value assign karte hi variable us value ko refer karta hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Binary numbers and bitwise operators. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Binary numbers and bitwise operators ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "Use type(value) to inspect a value.",
+      "25 is an int; \"25\" is a str.",
+      "OR gives 1 when at least one aligned bit is 1.",
+      "Python is dynamically typed: you assign a value without declaring a type first."
+    ],
+    "optionsHi": [
+      "type(value) se value ka type check hota hai.",
+      "25 integer hai, jabki \"25\" text/string hai.",
+      "OR tab 1 deta hai jab kam se kam ek bit 1 ho.",
+      "Python dynamically typed hai: value assign karte hi variable us value ko refer karta hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Binary numbers and bitwise operators. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Binary numbers and bitwise operators ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "Use type(value) to inspect a value.",
+      "25 is an int; \"25\" is a str.",
+      "Python is dynamically typed: you assign a value without declaring a type first.",
+      "XOR gives 1 when aligned bits differ."
+    ],
+    "optionsHi": [
+      "type(value) se value ka type check hota hai.",
+      "25 integer hai, jabki \"25\" text/string hai.",
+      "Python dynamically typed hai: value assign karte hi variable us value ko refer karta hai.",
+      "XOR tab 1 deta hai jab matching bits different hon."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Binary numbers and bitwise operators. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Binary numbers and bitwise operators ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

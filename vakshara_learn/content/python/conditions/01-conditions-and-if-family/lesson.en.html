@@ -1,0 +1,8 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>Conditions and if statements</h1><p>A condition is an expression Python can evaluate as True or False. if, else and elif let a program choose which block should run.</p><h2>Real-life example</h2><p>A condition is like a question at a school gate: “Do you have your ID card?” If the answer is yes, one action happens; otherwise another path may happen.</p><h2>Step-by-step explanation</h2><ol><li>Python checks marks &gt;= 90. It is False.</li><li>Python checks marks &gt;= 60. It is True, so grade becomes B.</li><li>The else block is skipped because one earlier branch matched.</li></ol><h2>Python example</h2><pre><code>marks = 72
+if marks &gt;= 90:
+    grade = &quot;A&quot;
+elif marks &gt;= 60:
+    grade = &quot;B&quot;
+else:
+    grade = &quot;C&quot;
+print(grade)</code></pre><h2>Expected output</h2><pre>B</pre><h2>Common mistake</h2><p>Put the most restrictive condition first. If you check marks &gt;= 40 before marks &gt;= 90, the A branch may never be reached.</p><h2>Remember this</h2><p>if checks the first path, elif checks another path, else catches the remaining case.</p></article>

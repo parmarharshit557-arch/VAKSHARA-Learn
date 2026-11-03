@@ -1,0 +1,13 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>Formatting, built-ins and string processing</h1><p>f-strings place expressions inside braces for readable formatting. Built-ins and loops help count, classify, reverse or validate text. These patterns are useful for real input cleaning.</p><h2>Real-life example</h2><p>A formatted message is like filling blanks in a ready-made certificate: the sentence stays the same, but the name and score are inserted in the right places.</p><h2>Step-by-step explanation</h2><ol><li>The f-string inserts the value of name.</li><li>.1f formats score to one digit after the decimal point.</li><li>The for loop visits each character in the string one at a time.</li></ol><h2>Python example</h2><pre><code>name = &quot;Asha&quot;
+score = 92.456
+print(f&quot;{name} scored {score:.1f}%&quot;)
+
+word = &quot;python&quot;
+for letter in word:
+    print(letter)</code></pre><h2>Expected output</h2><pre>Asha scored 92.5%
+p
+y
+t
+h
+o
+n</pre><h2>Common mistake</h2><p>Do not forget the f before the opening quote. Without f, {name} is treated as ordinary text.</p><h2>Remember this</h2><p>f-string = readable message + values; a string loop = one character per iteration.</p></article>

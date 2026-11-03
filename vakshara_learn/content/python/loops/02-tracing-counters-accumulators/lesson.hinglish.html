@@ -1,0 +1,8 @@
+<article class="vakshara-lesson"><p class="eyebrow">BILKUL BASIC SE</p><h1>Trace loops, counters and accumulators</h1><p>Dry run mein har iteration ke baad variables ki value track karte hain. Counter events ki ginti rakhta hai; accumulator running result jaise total sum store karta hai.</p><h2>Real-life example</h2><p>Counter tally mark jaisa hai jo count rakhta hai. Accumulator running total hai jisme har nayi value add hoti rehti hai.</p><h2>Step-by-step samjhaav</h2><ol><li>total ko 0 se start karo.</li><li>2 add hua: total 2 ho gaya.</li><li>4 add hua: total 6; phir 6 add hua: total 12.</li></ol><h2>Python example</h2><pre><code>total = 0
+for number in [2, 4, 6]:
+    total += number
+    print(&quot;running total:&quot;, total)
+print(&quot;final:&quot;, total)</code></pre><h2>Expected output</h2><pre>running total: 2
+running total: 6
+running total: 12
+final: 12</pre><h2>Common mistake</h2><p>Agar total grow karna hai toh loop ke andar har baar 0 mat karo. Isse purana total erase ho jayega.</p><h2>Yaad rakho</h2><p>Counter aam taur par 1 se badhta hai; accumulator running result collect karta hai.</p></article>

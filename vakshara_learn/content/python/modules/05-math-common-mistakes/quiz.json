@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "If you wrote import math, which call is valid?",
+    "options": [
+      "sqrt(16)",
+      "math.sqrt(16)",
+      "math->sqrt(16)",
+      "math::sqrt(16)"
+    ],
+    "answer": 1,
+    "whyEn": "With import math, the function is accessed through the module name.",
+    "whyHi": "import math ke baad function ko math.sqrt se access karte hain.",
+    "promptHi": "Agar import math likha hai, toh kaunsi function call valid hai?",
+    "optionsHi": [
+      "sqrt(16)",
+      "math.sqrt(16)",
+      "math->sqrt(16)",
+      "math::sqrt(16)"
+    ]
+  },
+  {
+    "prompt": "Why can math.isclose() be useful?",
+    "options": [
+      "It sorts numbers",
+      "It checks whether floating-point values are close within tolerances",
+      "It converts strings",
+      "It finds factorial"
+    ],
+    "answer": 1,
+    "whyEn": "Floating-point arithmetic can introduce small representation differences.",
+    "whyHi": "Floating-point calculations mein chhote precision differences aa sakte hain.",
+    "promptHi": "math.isclose() kis situation mein useful hota hai?",
+    "optionsHi": [
+      "Ye numbers sort karta hai",
+      "Ye check karta hai ki floating-point values given tolerance ke andar close hain ya nahi",
+      "Ye strings convert karta hai",
+      "Ye factorial nikalta hai"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about common math module mistakes?",
+    "promptHi": "Common math module mistakes ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "import math then math.sqrt(25) uses the module name.",
+      "from math import sqrt imports the selected name directly.",
+      "Aliases such as import math as m shorten a module reference.",
+      "Use the correct import style and matching function name."
+    ],
+    "optionsHi": [
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "from math import sqrt selected name directly import karta hai.",
+      "import math as m jaisa alias module reference short karta hai.",
+      "Import style ke according sahi function name use karein."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Common math module mistakes. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Common math module mistakes ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "Convert degrees to radians before trigonometric calls.",
+      "import math then math.sqrt(25) uses the module name.",
+      "from math import sqrt imports the selected name directly.",
+      "Aliases such as import math as m shorten a module reference."
+    ],
+    "optionsHi": [
+      "Trigonometric calls se pehle degrees ko radians mein convert karein.",
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "from math import sqrt selected name directly import karta hai.",
+      "import math as m jaisa alias module reference short karta hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in Common math module mistakes. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Common math module mistakes ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "import math then math.sqrt(25) uses the module name.",
+      "Use math.isclose() for suitable approximate float comparisons.",
+      "from math import sqrt imports the selected name directly.",
+      "Aliases such as import math as m shorten a module reference."
+    ],
+    "optionsHi": [
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "Approximate float comparison ke liye math.isclose() use karein.",
+      "from math import sqrt selected name directly import karta hai.",
+      "import math as m jaisa alias module reference short karta hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Common math module mistakes. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Common math module mistakes ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

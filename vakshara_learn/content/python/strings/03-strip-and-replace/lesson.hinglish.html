@@ -1,0 +1,6 @@
+<article class="vakshara-lesson"><p class="eyebrow">BILKUL BASIC SE</p><h1>Trimming and replacing text</h1><p>Text cleaning mein aksar start/end ke unwanted characters hatate hain ya selected text replace karte hain. strip() ends par kaam karta hai; beech ke spaces remove nahi karta.</p><h2>Real-life example</h2><p>Ek label socho jiske edges par extra spaces hain aur beech mein typo hai. strip() edges clean karta hai; replace() text ka selected part badalta hai.</p><h2>Step-by-step samjhaav</h2><ol><li>strip() beginning aur end se whitespace remove karta hai.</li><li>replace() selected text ko replace karke nayi string deta hai.</li><li>Original raw string unchanged rehti hai.</li></ol><h2>Python example</h2><pre><code>raw = &quot;  hello world  &quot;
+clean = raw.strip()
+fixed = clean.replace(&quot;world&quot;, &quot;Python&quot;)
+print(clean)
+print(fixed)</code></pre><h2>Expected output</h2><pre>hello world
+hello Python</pre><h2>Common mistake</h2><p>strip() sentence ke beech ki spaces remove nahi karta. Inner spaces normalize karne ke liye replace() ya split/join dekho.</p><h2>Yaad rakho</h2><p>Edges clean karne ke liye strip; selected text badalne ke liye replace.</p></article>

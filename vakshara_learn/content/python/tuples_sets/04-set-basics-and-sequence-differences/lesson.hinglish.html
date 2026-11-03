@@ -1,0 +1,5 @@
+<article class="vakshara-lesson"><p class="eyebrow">BILKUL BASIC SE</p><h1>Set basics and how sets differ from sequences</h1><p>Set unordered collection hoti hai jisme distinct hashable items hote hain. Duplicates remove ho jaate hain. Membership ke liye useful hai, lekin indexing/slicing support nahi karti.</p><h2>Real-life example</h2><p>Set guest list jaisa hai jahan har naam ek baar hota hai. Ye “naam present hai?” ka answer deta hai, lekin numbered position promise nahi karta.</p><h2>Step-by-step samjhaav</h2><ol><li>Repeated Asha sirf ek baar store hota hai.</li><li>Total teen unique names hain.</li><li>Membership presence check karta hai; set indexing support nahi karta.</li></ol><h2>Python example</h2><pre><code>attendees = {&quot;Asha&quot;, &quot;Rohan&quot;, &quot;Asha&quot;, &quot;Mina&quot;}
+print(len(attendees))
+print(&quot;Rohan&quot; in attendees)
+empty_set = set()</code></pre><h2>Expected output</h2><pre>3
+True</pre><h2>Common mistake</h2><p>{} empty dictionary banata hai, empty set nahi. Empty set ke liye set() use karo.</p><h2>Yaad rakho</h2><p>Set = unique items; positional indexing nahi; empty ke liye set().</p></article>

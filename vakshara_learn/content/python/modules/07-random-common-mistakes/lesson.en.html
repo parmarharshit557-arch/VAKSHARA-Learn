@@ -1,0 +1,6 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>Common random module mistakes</h1><p>Most random-module mistakes involve range boundaries, replacement rules or misunderstanding in-place mutation. Know what each function returns and whether it changes the input.</p><h2>Real-life example</h2><p>Random functions have different promises. One gives a number, one chooses an item, and one changes a list. Always ask: what comes back, and did the original object change?</p><h2>Step-by-step explanation</h2><ol><li>shuffle() changes items in place.</li><li>It does not return a new shuffled list; result is None.</li><li>The same list still contains three elements.</li></ol><h2>Python example</h2><pre><code>import random
+items = [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;]
+result = random.shuffle(items)
+print(result is None)
+print(len(items))</code></pre><h2>Expected output</h2><pre>True
+3</pre><h2>Common mistake</h2><p>randint(a, b) includes b, while randrange(a, b) excludes b. Read the boundary rule before using either.</p><h2>Remember this</h2><p>Return value and side effect are different things. Check both.</p></article>

@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "Why can removing items while iterating over the same list cause problems?",
+    "options": [
+      "The list becomes immutable",
+      "Indices shift and some items may be skipped",
+      "Python stops supporting lists",
+      "It always sorts the list"
+    ],
+    "answer": 1,
+    "whyEn": "Removing an element shifts later indices while the iterator continues.",
+    "whyHi": "Item remove hone par aage ke indices shift ho jaate hain, jisse items skip ho sakte hain.",
+    "promptHi": "Same list par iterate karte hue items remove karne se problem kyun ho sakti hai?",
+    "optionsHi": [
+      "List immutable ho jati hai",
+      "Indices shift ho jate hain aur kuch items skip ho sakte hain",
+      "Python lists support karna band kar deta hai",
+      "Ye hamesha list sort karta hai"
+    ]
+  },
+  {
+    "prompt": "What is a safer pattern when filtering a list?",
+    "options": [
+      "Build a new list of items to keep",
+      "Delete every second item",
+      "Use sort()",
+      "Convert it to a string"
+    ],
+    "answer": 0,
+    "whyEn": "A new filtered list avoids mutating the sequence being iterated over.",
+    "whyHi": "Nayi filtered list se iterate hoti hui original list mutate nahi hoti.",
+    "promptHi": "List filter karne ka safer pattern kaunsa hai?",
+    "optionsHi": [
+      "Jin items ko rakhna hai unki nayi list banayein",
+      "Har doosra item delete karein",
+      "sort() use karein",
+      "String mein convert karein"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about common list mistakes?",
+    "promptHi": "Common list mistakes ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "Lists use square brackets: [ ].",
+      "Indexing starts at 0; negative indexing counts from the end.",
+      "A valid indexed assignment changes the existing list item.",
+      "Do not assign the result of list.sort() expecting a list."
+    ],
+    "optionsHi": [
+      "Lists square brackets [ ] use karti hain.",
+      "Index 0 se start hota hai; negative index end se count karta hai.",
+      "Valid index par assignment list ka existing item change karta hai.",
+      "list.sort() ka result list expect karke assign na karein."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Common list mistakes. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Common list mistakes ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "Avoid removing items from the same list while iterating over it.",
+      "Lists use square brackets: [ ].",
+      "Indexing starts at 0; negative indexing counts from the end.",
+      "A valid indexed assignment changes the existing list item."
+    ],
+    "optionsHi": [
+      "Same list par iterate karte hue casually items remove na karein.",
+      "Lists square brackets [ ] use karti hain.",
+      "Index 0 se start hota hai; negative index end se count karta hai.",
+      "Valid index par assignment list ka existing item change karta hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in Common list mistakes. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Common list mistakes ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "Lists use square brackets: [ ].",
+      "A filtered new list is often safer.",
+      "Indexing starts at 0; negative indexing counts from the end.",
+      "A valid indexed assignment changes the existing list item."
+    ],
+    "optionsHi": [
+      "Lists square brackets [ ] use karti hain.",
+      "Filtered nayi list banana aksar safer hota hai.",
+      "Index 0 se start hota hai; negative index end se count karta hai.",
+      "Valid index par assignment list ka existing item change karta hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Common list mistakes. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Common list mistakes ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

@@ -1,0 +1,7 @@
+<article class="vakshara-lesson"><p class="eyebrow">BILKUL BASIC SE</p><h1>Tuple immutability, operations and methods</h1><p>Tuple immutable hoti hai, lekin uske andar mutable object jaise list ka reference ho sakta hai. Concatenation, repetition, comparison, count() aur index() useful operations hain.</p><h2>Real-life example</h2><p>Tuple sealed record jaisa hai: inspect kar sakte ho aur usse naya tuple bana sakte ho, par stored position ko replace nahi kar sakte.</p><h2>Step-by-step samjhaav</h2><ol><li>count(4) batata hai 4 ek baar hai.</li><li>index(7) position 1 batata hai.</li><li>+ naya tuple banata hai; original (4, 7) hi rehta hai.</li></ol><h2>Python example</h2><pre><code>point = (4, 7)
+print(point.count(4))
+print(point.index(7))
+new_point = point + (9,)
+print(new_point)</code></pre><h2>Expected output</h2><pre>1
+1
+(4, 7, 9)</pre><h2>Common mistake</h2><p>Tuple ke slots replace nahi kar sakte, lekin tuple ke andar mutable list ho toh us list ke contents change ho sakte hain.</p><h2>Yaad rakho</h2><p>Tuple apne item references change nahi karta, lekin andar ki mutable object change ho sakti hai.</p></article>
