@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "Which variable pattern is designed to keep a running sum?",
+    "options": [
+      "Counter",
+      "Accumulator",
+      "Flag only",
+      "Index label"
+    ],
+    "answer": 1,
+    "whyEn": "An accumulator stores the result built across iterations.",
+    "whyHi": "Accumulator iterations ke results ko mila kar running total rakhta hai.",
+    "promptHi": "Running sum store karne ke liye kaunsa variable pattern use hota hai?",
+    "optionsHi": [
+      "Counter",
+      "Accumulator",
+      "Flag only",
+      "Index label"
+    ]
+  },
+  {
+    "prompt": "Why make a dry-run table?",
+    "options": [
+      "To change the code automatically",
+      "To track how variables change at each iteration",
+      "To install Python",
+      "To skip the loop"
+    ],
+    "answer": 1,
+    "whyEn": "A trace table makes state changes and the final result visible.",
+    "whyHi": "Trace table se har iteration mein variables ka change clear dikhta hai.",
+    "promptHi": "Dry-run table banane ka purpose kya hota hai?",
+    "optionsHi": [
+      "Code ko automatically change karne ke liye",
+      "Har iteration par variables kaise change hote hain, ye track karne ke liye",
+      "Python install karne ke liye",
+      "Loop skip karne ke liye"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about trace loops, counters and accumulators?",
+    "promptHi": "Trace loops, counters and accumulators ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "Trace the condition, body and updated variables in order.",
+      "for visits each item in an iterable.",
+      "range(start, stop, step) excludes stop.",
+      "while repeats as long as its condition is true."
+    ],
+    "optionsHi": [
+      "Condition, body aur updated variables ko order mein trace karein.",
+      "for iterable ke har item par chalta hai.",
+      "range(start, stop, step) mein stop include nahi hota.",
+      "while condition True rehne tak repeat karta hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in Trace loops, counters and accumulators. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Trace loops, counters and accumulators ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "for visits each item in an iterable.",
+      "A counter usually changes by 1.",
+      "range(start, stop, step) excludes stop.",
+      "while repeats as long as its condition is true."
+    ],
+    "optionsHi": [
+      "for iterable ke har item par chalta hai.",
+      "Counter aksar 1 se increment hota hai.",
+      "range(start, stop, step) mein stop include nahi hota.",
+      "while condition True rehne tak repeat karta hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Trace loops, counters and accumulators. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Trace loops, counters and accumulators ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "for visits each item in an iterable.",
+      "range(start, stop, step) excludes stop.",
+      "An accumulator combines values across iterations.",
+      "while repeats as long as its condition is true."
+    ],
+    "optionsHi": [
+      "for iterable ke har item par chalta hai.",
+      "range(start, stop, step) mein stop include nahi hota.",
+      "Accumulator har iteration ki value ko running result mein add/combine karta hai.",
+      "while condition True rehne tak repeat karta hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Trace loops, counters and accumulators. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Trace loops, counters and accumulators ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

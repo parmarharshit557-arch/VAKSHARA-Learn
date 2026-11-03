@@ -1,0 +1,7 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>Tuple immutability, operations and methods</h1><p>Tuples are immutable, but they can contain references to mutable objects such as lists. Concatenation, repetition, comparison, count() and index() are useful tuple operations.</p><h2>Real-life example</h2><p>A tuple is a sealed record: you can inspect it and make a new tuple from it, but you cannot replace one of its stored positions.</p><h2>Step-by-step explanation</h2><ol><li>count(4) reports one occurrence.</li><li>index(7) reports position 1.</li><li>The + operator creates a new tuple; the original stays (4, 7).</li></ol><h2>Python example</h2><pre><code>point = (4, 7)
+print(point.count(4))
+print(point.index(7))
+new_point = point + (9,)
+print(new_point)</code></pre><h2>Expected output</h2><pre>1
+1
+(4, 7, 9)</pre><h2>Common mistake</h2><p>Immutability prevents replacing tuple slots, but a tuple can contain a mutable list whose contents may change.</p><h2>Remember this</h2><p>A tuple cannot change its item references, but a mutable object inside it may still change.</p></article>

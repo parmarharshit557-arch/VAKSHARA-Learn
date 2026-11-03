@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "What is the usual return type of \"a,b\".split(\",\")?",
+    "options": [
+      "str",
+      "tuple",
+      "list",
+      "set"
+    ],
+    "answer": 2,
+    "whyEn": "split() returns a list containing the parts.",
+    "whyHi": "split() parts ki list return karta hai.",
+    "promptHi": "\"a,b\".split(\",\") ka usual return type kya hai?",
+    "optionsHi": [
+      "str",
+      "tuple",
+      "list",
+      "set"
+    ]
+  },
+  {
+    "prompt": "Which is the correct join pattern?",
+    "options": [
+      "words.join(\", \")",
+      "\", \".join(words)",
+      "join(\", \", words)",
+      "words.split(\", \")"
+    ],
+    "answer": 1,
+    "whyEn": "join() is called on the separator string and receives an iterable of strings.",
+    "whyHi": "join() separator string par call hota hai aur strings ki iterable leta hai.",
+    "promptHi": "Inmein se join ka correct pattern kaunsa hai?",
+    "optionsHi": [
+      "words.join(\", \")",
+      "\", \".join(words)",
+      "join(\", \", words)",
+      "words.split(\", \")"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about split and join strings?",
+    "promptHi": "Split and join strings ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "Strings are immutable: a method returns a new string rather than changing the original.",
+      "split() returns a list of strings.",
+      "Positive indices start at 0; negative indices count from the end.",
+      "Slicing uses start:stop:step and excludes stop."
+    ],
+    "optionsHi": [
+      "String immutable hai: method naya string deta hai, original ko modify nahi karta.",
+      "split() strings ki list return karta hai.",
+      "Positive index 0 se start; negative index end se count karta hai.",
+      "Slicing mein stop index exclude hota hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Split and join strings. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Split and join strings ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "Strings are immutable: a method returns a new string rather than changing the original.",
+      "Positive indices start at 0; negative indices count from the end.",
+      "join() is called on the separator, such as \", \".join(words).",
+      "Slicing uses start:stop:step and excludes stop."
+    ],
+    "optionsHi": [
+      "String immutable hai: method naya string deta hai, original ko modify nahi karta.",
+      "Positive index 0 se start; negative index end se count karta hai.",
+      "join() separator par call hota hai, jaise \", \".join(words).",
+      "Slicing mein stop index exclude hota hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Split and join strings. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Split and join strings ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "Strings are immutable: a method returns a new string rather than changing the original.",
+      "Positive indices start at 0; negative indices count from the end.",
+      "Slicing uses start:stop:step and excludes stop.",
+      "join() expects string items."
+    ],
+    "optionsHi": [
+      "String immutable hai: method naya string deta hai, original ko modify nahi karta.",
+      "Positive index 0 se start; negative index end se count karta hai.",
+      "Slicing mein stop index exclude hota hai.",
+      "join() ke items strings hone chahiye."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Split and join strings. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Split and join strings ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

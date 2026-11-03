@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "Which logical operator is True when both conditions are True?",
+    "options": [
+      "or",
+      "not",
+      "and",
+      "in"
+    ],
+    "answer": 2,
+    "whyEn": "and requires every operand to be true.",
+    "whyHi": "and ke liye har operand True hona zaroori hai.",
+    "promptHi": "Kaunsa logical operator tab True hota hai jab dono conditions True hon?",
+    "optionsHi": [
+      "or",
+      "not",
+      "and",
+      "in"
+    ]
+  },
+  {
+    "prompt": "In a nested if, when is the inner condition checked?",
+    "options": [
+      "Before the outer condition",
+      "Only after execution enters the outer if block",
+      "Only at program end",
+      "Never"
+    ],
+    "answer": 1,
+    "whyEn": "The inner if is reached only when control enters the outer block.",
+    "whyHi": "Inner if tabhi check hota hai jab outer if block execute hona shuru hota hai.",
+    "promptHi": "Nested if mein inner condition kab check hoti hai?",
+    "optionsHi": [
+      "Outer condition se pehle",
+      "Sirf outer if block mein enter hone ke baad",
+      "Sirf program ke end par",
+      "Kabhi nahi"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about logical operators and nested conditions?",
+    "promptHi": "Logical operators and nested conditions ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "and requires both operands to be true.",
+      "if runs its block when the condition is True.",
+      "else handles the remaining case.",
+      "elif checks another condition when earlier conditions were False."
+    ],
+    "optionsHi": [
+      "and ke liye dono conditions True honi chahiye.",
+      "if ka block tab chalta hai jab condition True ho.",
+      "else remaining case handle karta hai.",
+      "Pehle checks False hon toh elif next condition check karta hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in Logical operators and nested conditions. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Logical operators and nested conditions ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "if runs its block when the condition is True.",
+      "or requires at least one operand to be true.",
+      "else handles the remaining case.",
+      "elif checks another condition when earlier conditions were False."
+    ],
+    "optionsHi": [
+      "if ka block tab chalta hai jab condition True ho.",
+      "or ke liye kam se kam ek condition True honi chahiye.",
+      "else remaining case handle karta hai.",
+      "Pehle checks False hon toh elif next condition check karta hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Logical operators and nested conditions. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Logical operators and nested conditions ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "if runs its block when the condition is True.",
+      "else handles the remaining case.",
+      "not reverses a truth value.",
+      "elif checks another condition when earlier conditions were False."
+    ],
+    "optionsHi": [
+      "if ka block tab chalta hai jab condition True ho.",
+      "else remaining case handle karta hai.",
+      "not truth value ko reverse karta hai.",
+      "Pehle checks False hon toh elif next condition check karta hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Logical operators and nested conditions. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Logical operators and nested conditions ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

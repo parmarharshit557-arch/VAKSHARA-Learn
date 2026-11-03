@@ -1,0 +1,6 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>Searching and testing text</h1><p>Searching methods locate text or test whether a string has a particular form. Choose find() when a missing match should produce -1, and understand that index() raises ValueError when it cannot find the text.</p><h2>Real-life example</h2><p>Searching text is like checking whether a word appears on a page. Validation is like checking whether a form entry follows a simple rule before accepting it.</p><h2>Step-by-step explanation</h2><ol><li>in checks whether a substring exists.</li><li>endswith() checks the ending of the string.</li><li>find() returns the first matching index, or -1 when no match exists.</li></ol><h2>Python example</h2><pre><code>email = &quot;asha@example.com&quot;
+print(&quot;@&quot; in email)
+print(email.endswith(&quot;.com&quot;))
+print(email.find(&quot;example&quot;))</code></pre><h2>Expected output</h2><pre>True
+True
+5</pre><h2>Common mistake</h2><p>find() can return -1. Do not treat -1 as a valid character position; check the result first.</p><h2>Remember this</h2><p>Search answers “where or whether?”; validation answers “does this text satisfy my rule?”.</p></article>

@@ -1,0 +1,8 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>User input and type conversion</h1><p>input() reads what a user types and returns it as text. If a program needs a number, convert that text with int() or float() before doing arithmetic.</p><h2>Real-life example</h2><p>A form collects what a person writes. Even if someone writes 18 in an age box, the form first receives characters. Your program must convert that text into a number before doing maths.</p><h2>Step-by-step explanation</h2><ol><li>age_text is the string &quot;18&quot;.</li><li>int() converts that text into the integer 18.</li><li>float() converts decimal text into 1.65, so arithmetic is now possible.</li></ol><h2>Python example</h2><pre><code>age_text = &quot;18&quot;
+age = int(age_text)
+height_text = &quot;1.65&quot;
+height = float(height_text)
+
+print(age + 2)
+print(height + 0.10)</code></pre><h2>Expected output</h2><pre>20
+1.75</pre><h2>Common mistake</h2><p>input() does not automatically return a number. Convert it, and handle invalid input because int(&quot;eighteen&quot;) raises ValueError.</p><h2>Remember this</h2><p>input → text → convert → calculate. Remember this order.</p></article>

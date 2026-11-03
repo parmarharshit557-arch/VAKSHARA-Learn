@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "When a file is run as the top-level program, what is __name__?",
+    "options": [
+      "\"main\"",
+      "\"__main__\"",
+      "The file path",
+      "None"
+    ],
+    "answer": 1,
+    "whyEn": "The top-level code environment receives the special name __main__.",
+    "whyHi": "Top-level code environment ko special name __main__ milta hai.",
+    "promptHi": "Jab file directly top-level program ki tarah run hoti hai, toh __name__ ki value kya hoti hai?",
+    "optionsHi": [
+      "\"main\"",
+      "\"__main__\"",
+      "The file path",
+      "None"
+    ]
+  },
+  {
+    "prompt": "Why use if __name__ == \"__main__\":?",
+    "options": [
+      "To import every package",
+      "To run selected code only when the file is executed directly",
+      "To create a class",
+      "To stop all functions"
+    ],
+    "answer": 1,
+    "whyEn": "The guarded block runs when the module is the top-level program, not when merely imported.",
+    "whyHi": "Guarded block direct run par chalta hai, sirf import hone par nahi.",
+    "promptHi": "if __name__ == \"__main__\": ka use kyun karte hain?",
+    "optionsHi": [
+      "Har package import karne ke liye",
+      "Selected code sirf tab run karne ke liye jab file directly execute ho",
+      "To create a class",
+      "Saare functions stop karne ke liye"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about create modules and use the main guard?",
+    "promptHi": "Create modules and use the main guard ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "import math then math.sqrt(25) uses the module name.",
+      "A Python module is commonly a .py file.",
+      "from math import sqrt imports the selected name directly.",
+      "Aliases such as import math as m shorten a module reference."
+    ],
+    "optionsHi": [
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "Python module aam taur par .py file hoti hai.",
+      "from math import sqrt selected name directly import karta hai.",
+      "import math as m jaisa alias module reference short karta hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Create modules and use the main guard. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Create modules and use the main guard ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "import math then math.sqrt(25) uses the module name.",
+      "from math import sqrt imports the selected name directly.",
+      "When run as the top-level program, __name__ is \"__main__\".",
+      "Aliases such as import math as m shorten a module reference."
+    ],
+    "optionsHi": [
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "from math import sqrt selected name directly import karta hai.",
+      "Top-level program ke roop mein run hone par __name__ \"__main__\" hota hai.",
+      "import math as m jaisa alias module reference short karta hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Create modules and use the main guard. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Create modules and use the main guard ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "import math then math.sqrt(25) uses the module name.",
+      "from math import sqrt imports the selected name directly.",
+      "Aliases such as import math as m shorten a module reference.",
+      "When imported, a module’s __name__ is its module name."
+    ],
+    "optionsHi": [
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "from math import sqrt selected name directly import karta hai.",
+      "import math as m jaisa alias module reference short karta hai.",
+      "Import hone par module ka __name__ uska module name hota hai."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Create modules and use the main guard. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Create modules and use the main guard ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

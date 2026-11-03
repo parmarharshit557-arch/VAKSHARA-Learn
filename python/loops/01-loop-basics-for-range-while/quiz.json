@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "What values are produced by range(1, 5)?",
+    "options": [
+      "1, 2, 3, 4, 5",
+      "1, 2, 3, 4",
+      "0, 1, 2, 3, 4",
+      "2, 3, 4, 5"
+    ],
+    "answer": 1,
+    "whyEn": "The stop value is excluded, so 5 is not produced.",
+    "whyHi": "range() mein stop value include nahi hoti, isliye 5 nahi aata.",
+    "promptHi": "range(1, 5) kaun-si values generate karta hai?",
+    "optionsHi": [
+      "1, 2, 3, 4, 5",
+      "1, 2, 3, 4",
+      "0, 1, 2, 3, 4",
+      "2, 3, 4, 5"
+    ]
+  },
+  {
+    "prompt": "A while loop continues while its condition is…",
+    "options": [
+      "False",
+      "True",
+      "A string",
+      "A comment"
+    ],
+    "answer": 1,
+    "whyEn": "The loop body repeats while the condition evaluates to true.",
+    "whyHi": "while ka body condition True hone tak repeat hota hai.",
+    "promptHi": "while loop tab tak chalta hai jab tak uski condition…",
+    "optionsHi": [
+      "False",
+      "True",
+      "Ek string",
+      "Ek comment"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about loop basics: for, range and while?",
+    "promptHi": "Loop basics: for, range and while ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "Trace the condition, body and updated variables in order.",
+      "A counter usually changes by 1.",
+      "for visits each item in an iterable.",
+      "An accumulator combines values across iterations."
+    ],
+    "optionsHi": [
+      "Condition, body aur updated variables ko order mein trace karein.",
+      "Counter aksar 1 se increment hota hai.",
+      "for iterable ke har item par chalta hai.",
+      "Accumulator har iteration ki value ko running result mein add/combine karta hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Loop basics: for, range and while. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Loop basics: for, range and while ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "Trace the condition, body and updated variables in order.",
+      "A counter usually changes by 1.",
+      "An accumulator combines values across iterations.",
+      "range(start, stop, step) excludes stop."
+    ],
+    "optionsHi": [
+      "Condition, body aur updated variables ko order mein trace karein.",
+      "Counter aksar 1 se increment hota hai.",
+      "Accumulator har iteration ki value ko running result mein add/combine karta hai.",
+      "range(start, stop, step) mein stop include nahi hota."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Loop basics: for, range and while. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Loop basics: for, range and while ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "while repeats as long as its condition is true.",
+      "Trace the condition, body and updated variables in order.",
+      "A counter usually changes by 1.",
+      "An accumulator combines values across iterations."
+    ],
+    "optionsHi": [
+      "while condition True rehne tak repeat karta hai.",
+      "Condition, body aur updated variables ko order mein trace karein.",
+      "Counter aksar 1 se increment hota hai.",
+      "Accumulator har iteration ki value ko running result mein add/combine karta hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in Loop basics: for, range and while. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Loop basics: for, range and while ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

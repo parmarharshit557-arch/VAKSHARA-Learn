@@ -1,0 +1,5 @@
+<article class="vakshara-lesson"><p class="eyebrow">BILKUL BASIC SE</p><h1>Split and join strings</h1><p>split() ek string ko pieces ki list mein todta hai. join() iska reverse karta hai: jis separator par call kiya hai, usse strings ko combine karta hai.</p><h2>Real-life example</h2><p>split() sentence ko spaces par todkar word cards banata hai. join() cards ko separator ke saath wapas jodta hai.</p><h2>Step-by-step samjhaav</h2><ol><li>split() words ki list return karta hai.</li><li>Ab list mein teen string items hain.</li><li>Separator string &quot; | &quot; un items ko ek string mein join karti hai.</li></ol><h2>Python example</h2><pre><code>sentence = &quot;learn Python daily&quot;
+words = sentence.split()
+print(words)
+print(&quot; | &quot;.join(words))</code></pre><h2>Expected output</h2><pre>[&#x27;learn&#x27;, &#x27;Python&#x27;, &#x27;daily&#x27;]
+learn | Python | daily</pre><h2>Common mistake</h2><p>join() separator string par call hota hai aur items strings hone chahiye. Numbers ko join karna ho toh map(str, values) use karo.</p><h2>Yaad rakho</h2><p>split: ek string se list; join: strings ki list se ek string.</p></article>

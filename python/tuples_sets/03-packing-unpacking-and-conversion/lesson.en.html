@@ -1,0 +1,7 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>Packing, unpacking and converting collections</h1><p>Packing groups multiple values into a tuple. Unpacking assigns tuple items to matching variables. Lists and tuples can be converted when the program needs a different collection behaviour.</p><h2>Real-life example</h2><p>Packing is putting several values into one parcel. Unpacking is opening the parcel and assigning each item to its own labelled variable.</p><h2>Step-by-step explanation</h2><ol><li>The tuple stores three values.</li><li>Unpacking assigns the first value to name, second to age and third to course.</li><li>The number of target names must match the values unless starred unpacking is used.</li></ol><h2>Python example</h2><pre><code>student = (&quot;Asha&quot;, 18, &quot;CSE&quot;)
+name, age, course = student
+print(name)
+print(age)
+print(course)</code></pre><h2>Expected output</h2><pre>Asha
+18
+CSE</pre><h2>Common mistake</h2><p>If you unpack three values into two names, Python raises ValueError. Use a starred target when one name should collect the remaining items.</p><h2>Remember this</h2><p>Packing groups values; unpacking distributes them into names.</p></article>

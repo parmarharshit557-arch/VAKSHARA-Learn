@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "What does continue do?",
+    "options": [
+      "Stops the whole program",
+      "Exits the loop permanently",
+      "Skips to the next iteration",
+      "Restarts the computer"
+    ],
+    "answer": 2,
+    "whyEn": "continue moves control to the next iteration of the loop.",
+    "whyHi": "continue current iteration chhodkar next iteration par jata hai.",
+    "promptHi": "continue statement kya karta hai?",
+    "optionsHi": [
+      "Poora program stop karta hai",
+      "Loop se permanently bahar nikalta hai",
+      "Current iteration skip karke next iteration par jata hai",
+      "Computer restart karta hai"
+    ]
+  },
+  {
+    "prompt": "When does a loop else clause run?",
+    "options": [
+      "Whenever the loop contains if",
+      "When the loop completes without break",
+      "Only when break runs",
+      "Before the loop starts"
+    ],
+    "answer": 1,
+    "whyEn": "Loop else runs when the loop terminates normally, not through break.",
+    "whyHi": "Loop else tab chalta hai jab loop normally finish ho, break se nahi.",
+    "promptHi": "Loop ka else clause kab run hota hai?",
+    "optionsHi": [
+      "Whenever the loop contains if",
+      "Jab loop break ke bina complete hota hai",
+      "Sirf jab break run hota hai",
+      "Loop start hone se pehle"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about break, continue and loop else?",
+    "promptHi": "break, continue and loop else ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "for visits each item in an iterable.",
+      "range(start, stop, step) excludes stop.",
+      "while repeats as long as its condition is true.",
+      "break exits the nearest enclosing loop."
+    ],
+    "optionsHi": [
+      "for iterable ke har item par chalta hai.",
+      "range(start, stop, step) mein stop include nahi hota.",
+      "while condition True rehne tak repeat karta hai.",
+      "break nearest enclosing loop ko exit karta hai."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in break, continue and loop else. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye break, continue and loop else ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "continue skips the rest of the current iteration.",
+      "for visits each item in an iterable.",
+      "range(start, stop, step) excludes stop.",
+      "while repeats as long as its condition is true."
+    ],
+    "optionsHi": [
+      "continue current iteration ka remaining part skip karta hai.",
+      "for iterable ke har item par chalta hai.",
+      "range(start, stop, step) mein stop include nahi hota.",
+      "while condition True rehne tak repeat karta hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in break, continue and loop else. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye break, continue and loop else ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "for visits each item in an iterable.",
+      "A loop else clause is skipped if break executes.",
+      "range(start, stop, step) excludes stop.",
+      "while repeats as long as its condition is true."
+    ],
+    "optionsHi": [
+      "for iterable ke har item par chalta hai.",
+      "break execute ho gaya toh loop ka else nahi chalega.",
+      "range(start, stop, step) mein stop include nahi hota.",
+      "while condition True rehne tak repeat karta hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in break, continue and loop else. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye break, continue and loop else ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

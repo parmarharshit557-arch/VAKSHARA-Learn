@@ -1,0 +1,20 @@
+{
+  "officialDocs": [
+    [
+      "Python tutorial — An informal introduction",
+      "https://docs.python.org/3.14/tutorial/introduction.html"
+    ],
+    [
+      "Built-in functions",
+      "https://docs.python.org/3.14/library/functions.html"
+    ],
+    [
+      "Built-in types",
+      "https://docs.python.org/3.14/library/stdtypes.html"
+    ],
+    [
+      "Python tutorial — Input and Output",
+      "https://docs.python.org/3.14/tutorial/inputoutput.html"
+    ]
+  ]
+}

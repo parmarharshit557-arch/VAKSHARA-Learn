@@ -1,0 +1,6 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>Create modules and use the main guard</h1><p>Reusable code can live in a separate .py file and be imported elsewhere. The __name__ == &quot;__main__&quot; guard keeps selected code from running when the module is imported.</p><h2>Real-life example</h2><p>A reusable module is like a shared recipe card. The main guard is the note saying “cook this meal only when this card is run directly, not when another recipe borrows it.”</p><h2>Step-by-step explanation</h2><ol><li>A function definition is created when the module loads.</li><li>When run directly, __name__ is &quot;__main__&quot; and the guarded block runs.</li><li>When imported, the importing module name is used, so the guarded demo does not run.</li></ol><h2>Python example</h2><pre><code># calculator_tools.py
+def double(value):
+    return value * 2
+
+if __name__ == &quot;__main__&quot;:
+    print(double(5))</code></pre><h2>Expected output</h2><pre>10</pre><h2>Common mistake</h2><p>Do not put all reusable functions inside the main guard. Define reusable functions at module level; keep only demo/startup code inside the guard.</p><h2>Remember this</h2><p>Define reusable tools first; protect only the direct-run demo with the main guard.</p></article>

@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "Which keyword rebinds a name in the nearest enclosing function scope?",
+    "options": [
+      "global",
+      "nonlocal",
+      "local",
+      "outer"
+    ],
+    "answer": 1,
+    "whyEn": "nonlocal is used in nested functions to rebind an enclosing function variable.",
+    "whyHi": "nonlocal nested function mein enclosing function variable ko rebind karta hai.",
+    "promptHi": "Nearest enclosing function scope mein name ko rebind karne ke liye kaunsa keyword use hota hai?",
+    "optionsHi": [
+      "global",
+      "nonlocal",
+      "local",
+      "outer"
+    ]
+  },
+  {
+    "prompt": "What does global refer to?",
+    "options": [
+      "The nearest loop",
+      "The module-level namespace",
+      "The nearest enclosing function only",
+      "A built-in constant"
+    ],
+    "answer": 1,
+    "whyEn": "global declares a name to be resolved in the module-level namespace.",
+    "whyHi": "global module-level namespace ko refer karta hai.",
+    "promptHi": "global keyword kis scope ko refer karta hai?",
+    "optionsHi": [
+      "Nearest loop",
+      "Module-level namespace",
+      "Sirf nearest enclosing function scope",
+      "Built-in constant"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about nonlocal and scope mistakes?",
+    "promptHi": "nonlocal and scope mistakes ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "import math then math.sqrt(25) uses the module name.",
+      "from math import sqrt imports the selected name directly.",
+      "nonlocal targets the nearest enclosing function scope.",
+      "Aliases such as import math as m shorten a module reference."
+    ],
+    "optionsHi": [
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "from math import sqrt selected name directly import karta hai.",
+      "nonlocal nearest enclosing function scope ko target karta hai.",
+      "import math as m jaisa alias module reference short karta hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in nonlocal and scope mistakes. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye nonlocal and scope mistakes ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "import math then math.sqrt(25) uses the module name.",
+      "from math import sqrt imports the selected name directly.",
+      "Aliases such as import math as m shorten a module reference.",
+      "global targets the module-level scope."
+    ],
+    "optionsHi": [
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "from math import sqrt selected name directly import karta hai.",
+      "import math as m jaisa alias module reference short karta hai.",
+      "global module-level scope ko target karta hai."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in nonlocal and scope mistakes. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye nonlocal and scope mistakes ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "Local assignment can shadow a global name.",
+      "import math then math.sqrt(25) uses the module name.",
+      "from math import sqrt imports the selected name directly.",
+      "Aliases such as import math as m shorten a module reference."
+    ],
+    "optionsHi": [
+      "Local assignment same name ke global variable ko shadow kar sakta hai.",
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "from math import sqrt selected name directly import karta hai.",
+      "import math as m jaisa alias module reference short karta hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in nonlocal and scope mistakes. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye nonlocal and scope mistakes ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

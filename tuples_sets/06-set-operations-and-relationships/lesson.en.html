@@ -1,0 +1,7 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>Set operations and relationships</h1><p>Set operations model mathematical relationships: union combines both sets, intersection keeps common items, difference keeps left-only items, and symmetric difference keeps items in exactly one set.</p><h2>Real-life example</h2><p>Two school clubs may have members in common. Union means everyone in either club; intersection means members in both; difference means members only in the first club.</p><h2>Step-by-step explanation</h2><ol><li>| combines all unique items from both sets.</li><li>&amp; keeps only shared items.</li><li>- keeps items from the left set that are not in the right set.</li></ol><h2>Python example</h2><pre><code>python = {&quot;Asha&quot;, &quot;Rohan&quot;, &quot;Mina&quot;}
+sql = {&quot;Mina&quot;, &quot;Dev&quot;}
+print(sorted(python | sql))
+print(sorted(python &amp; sql))
+print(sorted(python - sql))</code></pre><h2>Expected output</h2><pre>[&#x27;Asha&#x27;, &#x27;Dev&#x27;, &#x27;Mina&#x27;, &#x27;Rohan&#x27;]
+[&#x27;Mina&#x27;]
+[&#x27;Asha&#x27;, &#x27;Rohan&#x27;]</pre><h2>Common mistake</h2><p>Difference is directional: A - B may not equal B - A.</p><h2>Remember this</h2><p>Union = either; intersection = both; difference = left only; symmetric difference = exactly one side.</p></article>

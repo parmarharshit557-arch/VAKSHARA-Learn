@@ -1,0 +1,12 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>nonlocal and scope mistakes</h1><p>nonlocal applies to nested functions: it rebinds a name in the nearest enclosing function scope. global points to module scope. Confusing these scopes causes common UnboundLocalError and shadowing mistakes.</p><h2>Real-life example</h2><p>Imagine a team inside a department. A nested function is a smaller team inside the first team. nonlocal lets the smaller team update a name owned by the enclosing team; global points outside to the module level.</p><h2>Step-by-step explanation</h2><ol><li>make_counter creates count and the nested increase function.</li><li>nonlocal tells increase to update the count from the enclosing function.</li><li>The returned function remembers that count between calls.</li></ol><h2>Python example</h2><pre><code>def make_counter():
+    count = 0
+    def increase():
+        nonlocal count
+        count += 1
+        return count
+    return increase
+
+counter = make_counter()
+print(counter())
+print(counter())</code></pre><h2>Expected output</h2><pre>1
+2</pre><h2>Common mistake</h2><p>global and nonlocal target different scopes. global points to module scope; nonlocal points to the nearest enclosing function scope.</p><h2>Remember this</h2><p>global = module level; nonlocal = enclosing function level.</p></article>

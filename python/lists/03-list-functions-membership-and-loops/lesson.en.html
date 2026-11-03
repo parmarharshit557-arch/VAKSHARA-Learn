@@ -1,0 +1,9 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>List built-ins, membership and loops</h1><p>Built-in functions answer common questions about lists, while membership tests and loops help inspect every value. enumerate() is useful when both the index and item are needed.</p><h2>Real-life example</h2><p>A list is a queue of tasks. len tells you how many tasks there are, in checks whether a task is present, and a loop visits each task.</p><h2>Step-by-step explanation</h2><ol><li>len() counts the list items.</li><li>in returns True because quiz is present.</li><li>The loop assigns each item to task and runs the body.</li></ol><h2>Python example</h2><pre><code>tasks = [&quot;read&quot;, &quot;revise&quot;, &quot;quiz&quot;]
+print(len(tasks))
+print(&quot;quiz&quot; in tasks)
+for task in tasks:
+    print(task)</code></pre><h2>Expected output</h2><pre>3
+True
+read
+revise
+quiz</pre><h2>Common mistake</h2><p>Do not call a list method and a built-in function as if they were the same. len(items) is a function; items.count(x) is a method.</p><h2>Remember this</h2><p>Functions receive the list: len(items). Methods belong to the list: items.count(x).</p></article>

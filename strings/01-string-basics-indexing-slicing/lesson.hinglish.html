@@ -1,0 +1,6 @@
+<article class="vakshara-lesson"><p class="eyebrow">BILKUL BASIC SE</p><h1>String basics, immutability, indexing and slicing</h1><p>String Unicode characters ki immutable sequence hoti hai. Indexing ek character nikalti hai; slicing start:stop:step se naya part banati hai aur stop index include nahi hota.</p><h2>Real-life example</h2><p>String letters ki row jaisi hai. Har character ki position hoti hai; ek character ya continuous part access kar sakte ho.</p><h2>Step-by-step samjhaav</h2><ol><li>Index 0 first character P ko point karta hai.</li><li>Index -1 last character N ko point karta hai.</li><li>Slice [1:4] index 1 se start aur 4 se pehle stop hota hai: Y, T, H.</li></ol><h2>Python example</h2><pre><code>word = &quot;PYTHON&quot;
+print(word[0])
+print(word[-1])
+print(word[1:4])</code></pre><h2>Expected output</h2><pre>P
+N
+YTH</pre><h2>Common mistake</h2><p>Strings immutable hoti hain. word[0] = &quot;p&quot; allowed nahi; method ya slicing se nayi string banao.</p><h2>Yaad rakho</h2><p>Index ek position deta hai; slicing range deti hai; stop index include nahi hota.</p></article>

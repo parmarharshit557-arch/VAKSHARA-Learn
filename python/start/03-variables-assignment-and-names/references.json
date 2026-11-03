@@ -1,0 +1,12 @@
+{
+  "officialDocs": [
+    [
+      "Python tutorial — first steps",
+      "https://docs.python.org/3/tutorial/introduction.html"
+    ],
+    [
+      "Python execution model — name binding",
+      "https://docs.python.org/3/reference/executionmodel.html"
+    ]
+  ]
+}

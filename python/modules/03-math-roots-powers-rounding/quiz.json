@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "What does math.floor(-2.3) return?",
+    "options": [
+      "-2",
+      "-3",
+      "2",
+      "3"
+    ],
+    "answer": 1,
+    "whyEn": "floor() returns the greatest integer less than or equal to the value.",
+    "whyHi": "floor() value se chhota ya equal greatest integer deta hai; -2.3 ke liye -3.",
+    "promptHi": "math.floor(-2.3) kya return karega?",
+    "optionsHi": [
+      "-2",
+      "-3",
+      "2",
+      "3"
+    ]
+  },
+  {
+    "prompt": "Which math function returns the integer part by truncating toward zero?",
+    "options": [
+      "ceil()",
+      "floor()",
+      "trunc()",
+      "sqrt()"
+    ],
+    "answer": 2,
+    "whyEn": "trunc() removes the fractional part toward zero.",
+    "whyHi": "trunc() fractional part ko zero ki direction mein remove karta hai.",
+    "promptHi": "Kaunsa math function value ko zero ki taraf truncate karke integer part return karta hai?",
+    "optionsHi": [
+      "ceil()",
+      "floor()",
+      "trunc()",
+      "sqrt()"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about math module: roots, powers and rounding?",
+    "promptHi": "Math module: roots, powers and rounding ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "import math then math.sqrt(25) uses the module name.",
+      "math.sqrt(x) returns the square root as a float.",
+      "from math import sqrt imports the selected name directly.",
+      "Aliases such as import math as m shorten a module reference."
+    ],
+    "optionsHi": [
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "math.sqrt(x) square root float ke roop mein return karta hai.",
+      "from math import sqrt selected name directly import karta hai.",
+      "import math as m jaisa alias module reference short karta hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Math module: roots, powers and rounding. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Math module: roots, powers and rounding ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "import math then math.sqrt(25) uses the module name.",
+      "from math import sqrt imports the selected name directly.",
+      "ceil() rounds toward positive infinity; floor() toward negative infinity.",
+      "Aliases such as import math as m shorten a module reference."
+    ],
+    "optionsHi": [
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "from math import sqrt selected name directly import karta hai.",
+      "ceil() positive infinity ki taraf; floor() negative infinity ki taraf round karta hai.",
+      "import math as m jaisa alias module reference short karta hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Math module: roots, powers and rounding. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Math module: roots, powers and rounding ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "import math then math.sqrt(25) uses the module name.",
+      "from math import sqrt imports the selected name directly.",
+      "Aliases such as import math as m shorten a module reference.",
+      "trunc() removes the fractional part toward zero."
+    ],
+    "optionsHi": [
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "from math import sqrt selected name directly import karta hai.",
+      "import math as m jaisa alias module reference short karta hai.",
+      "trunc() fractional part ko zero ki taraf remove karta hai."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Math module: roots, powers and rounding. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Math module: roots, powers and rounding ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

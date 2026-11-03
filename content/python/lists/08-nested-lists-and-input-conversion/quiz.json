@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "How do you access column 2 in row 1 of grid?",
+    "options": [
+      "grid[2][1]",
+      "grid[1][2]",
+      "grid(1,2)",
+      "grid[1,2]"
+    ],
+    "answer": 1,
+    "whyEn": "The first index selects the row; the second selects the column.",
+    "whyHi": "Pehla index row, doosra column select karta hai.",
+    "promptHi": "grid ki row 1 mein column 2 ko kaise access karenge?",
+    "optionsHi": [
+      "grid[2][1]",
+      "grid[1][2]",
+      "grid(1,2)",
+      "grid[1,2]"
+    ]
+  },
+  {
+    "prompt": "What type does input().split() produce?",
+    "options": [
+      "A list of strings",
+      "A list of integers automatically",
+      "A tuple",
+      "A set"
+    ],
+    "answer": 0,
+    "whyEn": "split() produces string pieces; numeric conversion is a separate step.",
+    "whyHi": "split() string pieces ki list deta hai; integer conversion separate step hai.",
+    "promptHi": "input().split() kis type ka result deta hai?",
+    "optionsHi": [
+      "Strings ki list",
+      "Automatically integers ki list",
+      "Ek tuple",
+      "Ek set"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about nested lists and input conversion?",
+    "promptHi": "Nested lists and input conversion ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "Access a nested item with two indices, such as grid[row][column].",
+      "Lists use square brackets: [ ].",
+      "Indexing starts at 0; negative indexing counts from the end.",
+      "A valid indexed assignment changes the existing list item."
+    ],
+    "optionsHi": [
+      "Nested item ko do indices se access karein, jaise grid[row][column].",
+      "Lists square brackets [ ] use karti hain.",
+      "Index 0 se start hota hai; negative index end se count karta hai.",
+      "Valid index par assignment list ka existing item change karta hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in Nested lists and input conversion. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Nested lists and input conversion ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "Lists use square brackets: [ ].",
+      "split() returns strings; map(int, ...) or a comprehension can convert numeric text.",
+      "Indexing starts at 0; negative indexing counts from the end.",
+      "A valid indexed assignment changes the existing list item."
+    ],
+    "optionsHi": [
+      "Lists square brackets [ ] use karti hain.",
+      "split() strings deta hai; numeric text ko int mein convert karein.",
+      "Index 0 se start hota hai; negative index end se count karta hai.",
+      "Valid index par assignment list ka existing item change karta hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Nested lists and input conversion. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Nested lists and input conversion ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "Lists use square brackets: [ ].",
+      "Indexing starts at 0; negative indexing counts from the end.",
+      "Validate user input before relying on it.",
+      "A valid indexed assignment changes the existing list item."
+    ],
+    "optionsHi": [
+      "Lists square brackets [ ] use karti hain.",
+      "Index 0 se start hota hai; negative index end se count karta hai.",
+      "Input use karne se pehle validate karein.",
+      "Valid index par assignment list ka existing item change karta hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Nested lists and input conversion. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Nested lists and input conversion ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

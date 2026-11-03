@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "How do you create an empty set?",
+    "options": [
+      "{}",
+      "set()",
+      "[]",
+      "()"
+    ],
+    "answer": 1,
+    "whyEn": "set() creates an empty set; {} creates an empty dictionary.",
+    "whyHi": "set() empty set banata hai; {} empty dictionary hoti hai.",
+    "promptHi": "Empty set kaise banate hain?",
+    "optionsHi": [
+      "{}",
+      "set()",
+      "[]",
+      "()"
+    ]
+  },
+  {
+    "prompt": "Can you access a set item using set_items[0]?",
+    "options": [
+      "Yes",
+      "No, sets have no positional indexing",
+      "Only when sorted",
+      "Only for strings"
+    ],
+    "answer": 1,
+    "whyEn": "Sets are unordered collections and do not support indexing.",
+    "whyHi": "Set unordered collection hai; positional indexing nahi hoti.",
+    "promptHi": "Kya set_items[0] se set ka item access kar sakte hain?",
+    "optionsHi": [
+      "Haan",
+      "No, sets have no positional indexing",
+      "Only when sorted",
+      "Sirf strings ke liye"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about set basics and how sets differ from sequences?",
+    "promptHi": "Set basics and how sets differ from sequences ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "Tuples are commonly written with commas; parentheses improve clarity.",
+      "A one-item tuple needs a trailing comma: (5,).",
+      "A set stores unique hashable elements.",
+      "Indexing and slicing work like other sequences."
+    ],
+    "optionsHi": [
+      "Tuple comma se define hoti hai; parentheses readability badhate hain.",
+      "One-item tuple ke liye trailing comma zaroori hai: (5,).",
+      "Set unique hashable elements store karti hai.",
+      "Indexing aur slicing doosri sequences ki tarah hoti hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Set basics and how sets differ from sequences. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Set basics and how sets differ from sequences ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "Tuples are commonly written with commas; parentheses improve clarity.",
+      "A one-item tuple needs a trailing comma: (5,).",
+      "Indexing and slicing work like other sequences.",
+      "Use set() for an empty set; {} creates an empty dictionary."
+    ],
+    "optionsHi": [
+      "Tuple comma se define hoti hai; parentheses readability badhate hain.",
+      "One-item tuple ke liye trailing comma zaroori hai: (5,).",
+      "Indexing aur slicing doosri sequences ki tarah hoti hai.",
+      "Empty set ke liye set() use karein; {} empty dictionary banata hai."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Set basics and how sets differ from sequences. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Set basics and how sets differ from sequences ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "Sets are unordered and do not support indexing.",
+      "Tuples are commonly written with commas; parentheses improve clarity.",
+      "A one-item tuple needs a trailing comma: (5,).",
+      "Indexing and slicing work like other sequences."
+    ],
+    "optionsHi": [
+      "Set unordered hoti hai aur indexing support nahi karti.",
+      "Tuple comma se define hoti hai; parentheses readability badhate hain.",
+      "One-item tuple ke liye trailing comma zaroori hai: (5,).",
+      "Indexing aur slicing doosri sequences ki tarah hoti hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in Set basics and how sets differ from sequences. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Set basics and how sets differ from sequences ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "Which collection is immutable?",
+    "options": [
+      "set",
+      "frozenset",
+      "list",
+      "dict"
+    ],
+    "answer": 1,
+    "whyEn": "frozenset is the immutable counterpart of set.",
+    "whyHi": "frozenset, set ka immutable version hai.",
+    "promptHi": "Inmein se kaunsi collection immutable hai?",
+    "optionsHi": [
+      "set",
+      "frozenset",
+      "list",
+      "dict"
+    ]
+  },
+  {
+    "prompt": "Which collection should you choose when item order and position matter?",
+    "options": [
+      "set",
+      "list or tuple",
+      "frozenset only",
+      "No collection"
+    ],
+    "answer": 1,
+    "whyEn": "Lists and tuples are sequences with order and indexing; sets are unordered.",
+    "whyHi": "List aur tuple ordered sequences hain; set unordered hai.",
+    "promptHi": "Jab item ka order aur position important ho, toh kaunsi collection choose karni chahiye?",
+    "optionsHi": [
+      "set",
+      "list or tuple",
+      "frozenset only",
+      "No collection"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about frozenset, set comprehensions and collection comparison?",
+    "promptHi": "Frozenset, set comprehensions and collection comparison ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "Tuples are commonly written with commas; parentheses improve clarity.",
+      "A one-item tuple needs a trailing comma: (5,).",
+      "frozenset cannot be changed after creation.",
+      "Indexing and slicing work like other sequences."
+    ],
+    "optionsHi": [
+      "Tuple comma se define hoti hai; parentheses readability badhate hain.",
+      "One-item tuple ke liye trailing comma zaroori hai: (5,).",
+      "frozenset create hone ke baad change nahi hota.",
+      "Indexing aur slicing doosri sequences ki tarah hoti hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Frozenset, set comprehensions and collection comparison. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Frozenset, set comprehensions and collection comparison ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "Tuples are commonly written with commas; parentheses improve clarity.",
+      "A one-item tuple needs a trailing comma: (5,).",
+      "Indexing and slicing work like other sequences.",
+      "Set comprehensions use braces with an expression and for clause."
+    ],
+    "optionsHi": [
+      "Tuple comma se define hoti hai; parentheses readability badhate hain.",
+      "One-item tuple ke liye trailing comma zaroori hai: (5,).",
+      "Indexing aur slicing doosri sequences ki tarah hoti hai.",
+      "Set comprehension braces mein expression aur for clause use karti hai."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Frozenset, set comprehensions and collection comparison. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Frozenset, set comprehensions and collection comparison ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "Use a set when uniqueness and membership matter; use list/tuple when order matters.",
+      "Tuples are commonly written with commas; parentheses improve clarity.",
+      "A one-item tuple needs a trailing comma: (5,).",
+      "Indexing and slicing work like other sequences."
+    ],
+    "optionsHi": [
+      "Uniqueness/membership important ho toh set; order important ho toh list/tuple.",
+      "Tuple comma se define hoti hai; parentheses readability badhate hain.",
+      "One-item tuple ke liye trailing comma zaroori hai: (5,).",
+      "Indexing aur slicing doosri sequences ki tarah hoti hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in Frozenset, set comprehensions and collection comparison. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Frozenset, set comprehensions and collection comparison ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

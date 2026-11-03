@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "What is the first index of a list?",
+    "options": [
+      "-1",
+      "0",
+      "1",
+      "Depends on the list"
+    ],
+    "answer": 1,
+    "whyEn": "Python sequence indexing begins at zero.",
+    "whyHi": "Python sequence indexing zero se start hoti hai.",
+    "promptHi": "List ka first index kya hota hai?",
+    "optionsHi": [
+      "-1",
+      "0",
+      "1",
+      "Depends on the list"
+    ]
+  },
+  {
+    "prompt": "Are Python lists mutable?",
+    "options": [
+      "Yes",
+      "No",
+      "Only if numeric",
+      "Only when empty"
+    ],
+    "answer": 0,
+    "whyEn": "List items can be changed after the list is created.",
+    "whyHi": "List banne ke baad uske items change kiye ja sakte hain.",
+    "promptHi": "Kya Python lists mutable hoti hain?",
+    "optionsHi": [
+      "Haan",
+      "Nahi",
+      "Sirf numeric hone par",
+      "Sirf empty hone par"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about create, index and update lists?",
+    "promptHi": "Create, index and update lists ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "Lists use square brackets: [ ].",
+      "append(x) adds x as one item.",
+      "extend(iterable) adds each item from the iterable.",
+      "pop() removes and returns an item; remove(x) removes by value."
+    ],
+    "optionsHi": [
+      "Lists square brackets [ ] use karti hain.",
+      "append(x) x ko ek item ke roop mein add karta hai.",
+      "extend(iterable) iterable ke har item ko add karta hai.",
+      "pop() item hata kar return karta hai; remove(x) value se remove karta hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in Create, index and update lists. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Create, index and update lists ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "append(x) adds x as one item.",
+      "Indexing starts at 0; negative indexing counts from the end.",
+      "extend(iterable) adds each item from the iterable.",
+      "pop() removes and returns an item; remove(x) removes by value."
+    ],
+    "optionsHi": [
+      "append(x) x ko ek item ke roop mein add karta hai.",
+      "Index 0 se start hota hai; negative index end se count karta hai.",
+      "extend(iterable) iterable ke har item ko add karta hai.",
+      "pop() item hata kar return karta hai; remove(x) value se remove karta hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Create, index and update lists. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Create, index and update lists ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "append(x) adds x as one item.",
+      "extend(iterable) adds each item from the iterable.",
+      "A valid indexed assignment changes the existing list item.",
+      "pop() removes and returns an item; remove(x) removes by value."
+    ],
+    "optionsHi": [
+      "append(x) x ko ek item ke roop mein add karta hai.",
+      "extend(iterable) iterable ke har item ko add karta hai.",
+      "Valid index par assignment list ka existing item change karta hai.",
+      "pop() item hata kar return karta hai; remove(x) value se remove karta hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Create, index and update lists. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Create, index and update lists ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "Which value is a string?",
+    "options": [
+      "25",
+      "25.0",
+      "\"25\"",
+      "True"
+    ],
+    "answer": 2,
+    "whyEn": "Quotation marks make the value text, so its type is str.",
+    "whyHi": "Quotes ke andar likha 25 text hai, isliye iska type str hai.",
+    "promptHi": "Inmein se kaunsi value string hai?",
+    "optionsHi": [
+      "25",
+      "25.0",
+      "\"25\"",
+      "True"
+    ]
+  },
+  {
+    "prompt": "Which built-in function checks the type of a value?",
+    "options": [
+      "id()",
+      "type()",
+      "input()",
+      "print()"
+    ],
+    "answer": 1,
+    "whyEn": "type(value) returns the value’s type object.",
+    "whyHi": "type(value) value ka type batata hai.",
+    "promptHi": "Kisi value ka type check karne ke liye kaunsa built-in function use hota hai?",
+    "optionsHi": [
+      "id()",
+      "type()",
+      "input()",
+      "print()"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about data types and python values?",
+    "promptHi": "Data types and Python values ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "input() returns str, even when the user types digits.",
+      "Use type(value) to inspect a value.",
+      "int() converts to an integer; float() converts to a floating-point number.",
+      "Invalid text can raise ValueError during conversion."
+    ],
+    "optionsHi": [
+      "input() ka result hamesha string hota hai, digits type karne par bhi.",
+      "type(value) se value ka type check hota hai.",
+      "int() integer aur float() decimal number mein convert karta hai.",
+      "Invalid text ko number mein convert karne par ValueError aa sakta hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Data types and Python values. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Data types and Python values ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "input() returns str, even when the user types digits.",
+      "int() converts to an integer; float() converts to a floating-point number.",
+      "25 is an int; \"25\" is a str.",
+      "Invalid text can raise ValueError during conversion."
+    ],
+    "optionsHi": [
+      "input() ka result hamesha string hota hai, digits type karne par bhi.",
+      "int() integer aur float() decimal number mein convert karta hai.",
+      "25 integer hai, jabki \"25\" text/string hai.",
+      "Invalid text ko number mein convert karne par ValueError aa sakta hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Data types and Python values. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Data types and Python values ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "input() returns str, even when the user types digits.",
+      "int() converts to an integer; float() converts to a floating-point number.",
+      "Invalid text can raise ValueError during conversion.",
+      "Python is dynamically typed: you assign a value without declaring a type first."
+    ],
+    "optionsHi": [
+      "input() ka result hamesha string hota hai, digits type karne par bhi.",
+      "int() integer aur float() decimal number mein convert karta hai.",
+      "Invalid text ko number mein convert karne par ValueError aa sakta hai.",
+      "Python dynamically typed hai: value assign karte hi variable us value ko refer karta hai."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Data types and Python values. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Data types and Python values ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

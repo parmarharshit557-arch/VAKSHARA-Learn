@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "Which method can be used without an error when the item may be absent?",
+    "options": [
+      "remove()",
+      "discard()",
+      "pop(0)",
+      "index()"
+    ],
+    "answer": 1,
+    "whyEn": "discard() does nothing when the element is not present.",
+    "whyHi": "Element absent ho toh discard() silently kuch nahi karta.",
+    "promptHi": "Agar item set mein na bhi ho, toh kaunsa method error nahi deta?",
+    "optionsHi": [
+      "remove()",
+      "discard()",
+      "pop(0)",
+      "index()"
+    ]
+  },
+  {
+    "prompt": "Which method adds items from an iterable?",
+    "options": [
+      "add()",
+      "update()",
+      "clear()",
+      "copy()"
+    ],
+    "answer": 1,
+    "whyEn": "update() adds elements from an iterable.",
+    "whyHi": "update() iterable ke elements add karta hai.",
+    "promptHi": "Iterable ke items ko set mein add karne ke liye kaunsa method use hota hai?",
+    "optionsHi": [
+      "add()",
+      "update()",
+      "clear()",
+      "copy()"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about adding and removing set items?",
+    "promptHi": "Adding and removing set items ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "Tuples are commonly written with commas; parentheses improve clarity.",
+      "add(x) adds one element.",
+      "A one-item tuple needs a trailing comma: (5,).",
+      "Indexing and slicing work like other sequences."
+    ],
+    "optionsHi": [
+      "Tuple comma se define hoti hai; parentheses readability badhate hain.",
+      "add(x) ek element add karta hai.",
+      "One-item tuple ke liye trailing comma zaroori hai: (5,).",
+      "Indexing aur slicing doosri sequences ki tarah hoti hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Adding and removing set items. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Adding and removing set items ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "Tuples are commonly written with commas; parentheses improve clarity.",
+      "A one-item tuple needs a trailing comma: (5,).",
+      "update(iterable) adds elements from an iterable.",
+      "Indexing and slicing work like other sequences."
+    ],
+    "optionsHi": [
+      "Tuple comma se define hoti hai; parentheses readability badhate hain.",
+      "One-item tuple ke liye trailing comma zaroori hai: (5,).",
+      "update(iterable) iterable ke elements add karta hai.",
+      "Indexing aur slicing doosri sequences ki tarah hoti hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Adding and removing set items. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Adding and removing set items ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "Tuples are commonly written with commas; parentheses improve clarity.",
+      "A one-item tuple needs a trailing comma: (5,).",
+      "Indexing and slicing work like other sequences.",
+      "remove(x) raises KeyError when x is absent; discard(x) is safe when absent."
+    ],
+    "optionsHi": [
+      "Tuple comma se define hoti hai; parentheses readability badhate hain.",
+      "One-item tuple ke liye trailing comma zaroori hai: (5,).",
+      "Indexing aur slicing doosri sequences ki tarah hoti hai.",
+      "Value absent ho toh remove(x) KeyError deta hai; discard(x) safe hai."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Adding and removing set items. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Adding and removing set items ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

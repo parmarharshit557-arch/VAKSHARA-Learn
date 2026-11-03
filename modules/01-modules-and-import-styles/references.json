@@ -1,0 +1,20 @@
+{
+  "officialDocs": [
+    [
+      "Python tutorial — Modules",
+      "https://docs.python.org/3.14/tutorial/modules.html"
+    ],
+    [
+      "math — Mathematical functions",
+      "https://docs.python.org/3.14/library/math.html"
+    ],
+    [
+      "random — Generate pseudo-random numbers",
+      "https://docs.python.org/3.14/library/random.html"
+    ],
+    [
+      "Execution model — Naming and binding",
+      "https://docs.python.org/3.14/reference/executionmodel.html#resolution-of-names"
+    ]
+  ]
+}

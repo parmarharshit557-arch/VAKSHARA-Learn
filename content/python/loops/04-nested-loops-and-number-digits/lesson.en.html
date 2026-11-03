@@ -1,0 +1,8 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>Nested loops and processing number digits</h1><p>A nested loop places one loop inside another. Processing digits commonly uses remainder (%) to read the last digit and floor division (//) to remove it.</p><h2>Real-life example</h2><p>A nested loop is like rows and seats in a theatre. The outer loop chooses a row; the inner loop visits every seat in that row.</p><h2>Step-by-step explanation</h2><ol><li>The outer loop starts at row 1.</li><li>The inner loop completes seats 1, 2 and 3 before the outer loop moves on.</li><li>Then row 2 repeats the same inner sequence.</li></ol><h2>Python example</h2><pre><code>for row in range(1, 3):
+    for seat in range(1, 4):
+        print(row, seat)</code></pre><h2>Expected output</h2><pre>1 1
+1 2
+1 3
+2 1
+2 2
+2 3</pre><h2>Common mistake</h2><p>A nested loop can run many times: 2 outer rounds × 3 inner rounds = 6 prints here.</p><h2>Remember this</h2><p>The inner loop finishes all its rounds for each single outer-loop round.</p></article>

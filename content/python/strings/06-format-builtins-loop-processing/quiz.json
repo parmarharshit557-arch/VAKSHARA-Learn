@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "What do f-strings allow inside { }?",
+    "options": [
+      "Only comments",
+      "Python expressions",
+      "Only numbers",
+      "Only function names"
+    ],
+    "answer": 1,
+    "whyEn": "Expressions inside braces are evaluated and formatted into the string.",
+    "whyHi": "Braces ke andar Python expression evaluate hokar string mein aata hai.",
+    "promptHi": "f-string ke { } ke andar kya likh sakte hain?",
+    "optionsHi": [
+      "Only comments",
+      "Python expressions",
+      "Only numbers",
+      "Only function names"
+    ]
+  },
+  {
+    "prompt": "Why does name = name.strip() often appear in code?",
+    "options": [
+      "strip() modifies strings in place",
+      "strip() returns a cleaned string that must be assigned",
+      "strip() always returns None",
+      "strip() converts to a list"
+    ],
+    "answer": 1,
+    "whyEn": "Strings are immutable; the returned cleaned string should be stored.",
+    "whyHi": "String immutable hai; cleaned result ko assign karna padta hai.",
+    "promptHi": "Code mein name = name.strip() aksar kyun likha jata hai?",
+    "optionsHi": [
+      "strip() modifies strings in place",
+      "strip() returns a cleaned string that must be assigned",
+      "strip() always returns None",
+      "strip() converts to a list"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about formatting, built-ins and string processing?",
+    "promptHi": "Formatting, built-ins and string processing ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "Strings are immutable: a method returns a new string rather than changing the original.",
+      "Positive indices start at 0; negative indices count from the end.",
+      "f\"...{value}...\" inserts an expression into text.",
+      "Slicing uses start:stop:step and excludes stop."
+    ],
+    "optionsHi": [
+      "String immutable hai: method naya string deta hai, original ko modify nahi karta.",
+      "Positive index 0 se start; negative index end se count karta hai.",
+      "f\"...{value}...\" text ke andar expression insert karta hai.",
+      "Slicing mein stop index exclude hota hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Formatting, built-ins and string processing. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Formatting, built-ins and string processing ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "Strings are immutable: a method returns a new string rather than changing the original.",
+      "Positive indices start at 0; negative indices count from the end.",
+      "Slicing uses start:stop:step and excludes stop.",
+      "Formatting can control decimal places."
+    ],
+    "optionsHi": [
+      "String immutable hai: method naya string deta hai, original ko modify nahi karta.",
+      "Positive index 0 se start; negative index end se count karta hai.",
+      "Slicing mein stop index exclude hota hai.",
+      "Formatting se decimal places control kar sakte hain."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Formatting, built-ins and string processing. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Formatting, built-ins and string processing ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "Loops can count vowels, digits, spaces or reverse text.",
+      "Strings are immutable: a method returns a new string rather than changing the original.",
+      "Positive indices start at 0; negative indices count from the end.",
+      "Slicing uses start:stop:step and excludes stop."
+    ],
+    "optionsHi": [
+      "Loops vowels, digits, spaces count ya text reverse kar sakte hain.",
+      "String immutable hai: method naya string deta hai, original ko modify nahi karta.",
+      "Positive index 0 se start; negative index end se count karta hai.",
+      "Slicing mein stop index exclude hota hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in Formatting, built-ins and string processing. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Formatting, built-ins and string processing ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

@@ -1,0 +1,9 @@
+<article class="vakshara-lesson"><p class="eyebrow">BILKUL BASIC SE</p><h1>List built-ins, membership and loops</h1><p>Built-in functions list ke baare mein common questions ka answer deti hain. Membership aur loops items inspect karte hain. Index aur value dono chahiye hon toh enumerate() useful hai.</p><h2>Real-life example</h2><p>List tasks ki queue jaisi hai. len count batata hai, in check karta hai task present hai ya nahi, loop har task visit karta hai.</p><h2>Step-by-step samjhaav</h2><ol><li>len() list ke items count karta hai.</li><li>quiz present hai, isliye in True deta hai.</li><li>Loop har item ko task variable mein rakhta hai aur body run karta hai.</li></ol><h2>Python example</h2><pre><code>tasks = [&quot;read&quot;, &quot;revise&quot;, &quot;quiz&quot;]
+print(len(tasks))
+print(&quot;quiz&quot; in tasks)
+for task in tasks:
+    print(task)</code></pre><h2>Expected output</h2><pre>3
+True
+read
+revise
+quiz</pre><h2>Common mistake</h2><p>List method aur built-in function same nahi. len(items) function hai; items.count(x) method hai.</p><h2>Yaad rakho</h2><p>Function ko list pass hoti hai: len(items). Method list ka hota hai: items.count(x).</p></article>

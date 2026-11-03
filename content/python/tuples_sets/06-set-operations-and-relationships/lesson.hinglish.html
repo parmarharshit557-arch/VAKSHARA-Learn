@@ -1,0 +1,7 @@
+<article class="vakshara-lesson"><p class="eyebrow">BILKUL BASIC SE</p><h1>Set operations and relationships</h1><p>Set operations mathematical relationships ko represent karte hain: union dono sets combine karta hai, intersection common items rakhta hai, difference left-only items, aur symmetric difference exactly ek set mein hone wale items rakhta hai.</p><h2>Real-life example</h2><p>Do school clubs ke members common ho sakte hain. Union = dono clubs ke sab unique members; intersection = dono mein common; difference = sirf pehle club ke members.</p><h2>Step-by-step samjhaav</h2><ol><li>| dono sets ke unique items combine karta hai.</li><li>&amp; sirf common items rakhta hai.</li><li>- left set ke woh items rakhta hai jo right set mein nahi.</li></ol><h2>Python example</h2><pre><code>python = {&quot;Asha&quot;, &quot;Rohan&quot;, &quot;Mina&quot;}
+sql = {&quot;Mina&quot;, &quot;Dev&quot;}
+print(sorted(python | sql))
+print(sorted(python &amp; sql))
+print(sorted(python - sql))</code></pre><h2>Expected output</h2><pre>[&#x27;Asha&#x27;, &#x27;Dev&#x27;, &#x27;Mina&#x27;, &#x27;Rohan&#x27;]
+[&#x27;Mina&#x27;]
+[&#x27;Asha&#x27;, &#x27;Rohan&#x27;]</pre><h2>Common mistake</h2><p>Difference directional hai: A - B zaroori nahi B - A ke equal ho.</p><h2>Yaad rakho</h2><p>Union = kisi bhi side; intersection = dono; difference = left only; symmetric difference = exactly ek side.</p></article>

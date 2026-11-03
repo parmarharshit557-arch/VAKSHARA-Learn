@@ -1,0 +1,6 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>Local, global scope and return values</h1><p>Scope describes where a name can be used. Functions can read global names, create local names and return results. Prefer parameters and return values over unnecessary global state.</p><h2>Real-life example</h2><p>A function is like a small work desk. Names created on that desk are local to the function. A global name is kept in the shared room outside the desk. A return value is the finished result handed back.</p><h2>Step-by-step explanation</h2><ol><li>price is a parameter and becomes local to the function call.</li><li>tax is created locally; tax_rate is read from module scope.</li><li>return sends 105.0 back to the caller.</li></ol><h2>Python example</h2><pre><code>tax_rate = 0.05
+def total_with_tax(price):
+    tax = price * tax_rate
+    return price + tax
+
+print(total_with_tax(100))</code></pre><h2>Expected output</h2><pre>105.0</pre><h2>Common mistake</h2><p>print() displays a value; return sends a value back to the code that called the function. They are not interchangeable.</p><h2>Remember this</h2><p>Local belongs to the function call; return carries a result out.</p></article>

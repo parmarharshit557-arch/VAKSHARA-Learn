@@ -1,0 +1,8 @@
+<article class="vakshara-lesson"><p class="eyebrow">BILKUL BASIC SE</p><h1>Aliasing and copying lists</h1><p>List assignment automatic copy nahi banata. Do variable names same object ko refer kar sakte hain (alias). copy(), slicing ya list() se shallow outer copy banayein; nested mutable objects ka difference bhi samjhein.</p><h2>Real-life example</h2><p>Ek hi storage box par do labels lagane se do boxes nahi bante. Agar dono names ek list ko point karte hain, kisi bhi name se change karne par same list change hoti hai.</p><h2>Step-by-step samjhaav</h2><ol><li>alias = original same list object ka second name banata hai.</li><li>alias se append karne par original bhi change hota hai.</li><li>copy() alag outer list banata hai; copy mein append original ko nahi badalta.</li></ol><h2>Python example</h2><pre><code>original = [10, 20]
+alias = original
+copy = original.copy()
+alias.append(30)
+copy.append(40)
+print(original)
+print(copy)</code></pre><h2>Expected output</h2><pre>[10, 20, 30]
+[10, 20, 40]</pre><h2>Common mistake</h2><p>Shallow copy outer list alag banata hai, lekin andar ki nested lists ko recursively copy nahi karta.</p><h2>Yaad rakho</h2><p>Assignment ek aur reference banata hai; copy() alag outer list banata hai.</p></article>

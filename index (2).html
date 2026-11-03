@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f3e9">
+  <meta name="description" content="VAKSHARA Learn — structured lessons, visual explanations and topic-wise quizzes for programming, data and emerging technology.">
+  <title>VAKSHARA Learn — Learn · Grow · Evolve</title>
+  <link rel="icon" type="image/webp" href="./assets/vakshara-mark.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="top-progress" id="topProgress"></div>
+  <header class="site-header">
+    <div class="shell nav-shell">
+      <button class="brand" type="button" data-action="home" aria-label="VAKSHARA Learn home">
+        <span class="brand-mark"><picture><source srcset="./assets/vakshara-mark.webp" type="image/webp"><img src="./assets/vakshara-mark.png" alt="VAKSHARA Ganesha emblem"></picture></span>
+        <span class="brand-copy"><strong>VAKSHARA</strong><small>LEARN · GROW · EVOLVE</small></span>
+      </button>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <button class="nav-link active" type="button" data-action="home">Learn</button>
+        <button class="nav-link" type="button" data-action="tracker">Self Tracker</button>
+        <button class="nav-link nav-locked" type="button" data-action="labs">Labs <span class="lock-dot">LOCKED</span></button>
+        <button class="nav-link" type="button" data-action="about">About</button>
+      </nav>
+      <div class="nav-tools">
+        <button class="language-toggle" id="languageToggle" type="button" aria-label="Change lesson language"><span class="language-symbol">文</span><span id="languageLabel">EN</span><span class="chevron">⌄</span></button>
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch theme" title="Switch light or dark theme"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14A8.5 8.5 0 0 1 10 3.5 8.5 8.5 0 1 0 20.5 14z"/></svg></button>
+        <button class="mobile-menu" id="menuToggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <button type="button" data-action="home">Learn</button>
+      <button type="button" data-action="tracker">Self Tracker</button>
+      <button type="button" data-action="labs">VAKSHARA Labs · Locked</button>
+      <button type="button" data-action="about">About VAKSHARA</button>
+    </div>
+  </header>
+  <main id="app" tabindex="-1"></main>
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <div class="footer-brand"><img src="./assets/vakshara-mark.webp" alt=""><span><strong>VAKSHARA</strong><small>LEARN · GROW · EVOLVE</small></span></div>
+      <div class="footer-note">An independent educational initiative.<br><span>VAKSHARA Learn · Learn · Grow · Evolve</span></div>
+      <button class="back-top" type="button" id="backTop" aria-label="Back to top">↑</button>
+    </div>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="./content/manifest.js"></script>
+  <script src="./content/teacher-guides.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>

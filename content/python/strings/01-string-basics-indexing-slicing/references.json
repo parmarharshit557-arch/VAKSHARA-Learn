@@ -1,0 +1,16 @@
+{
+  "officialDocs": [
+    [
+      "Built-in types — Text Sequence Type (str)",
+      "https://docs.python.org/3.14/library/stdtypes.html#text-sequence-type-str"
+    ],
+    [
+      "Built-in types — String Methods",
+      "https://docs.python.org/3.14/library/stdtypes.html#string-methods"
+    ],
+    [
+      "Python tutorial — Formatted String Literals",
+      "https://docs.python.org/3.14/tutorial/inputoutput.html#formatted-string-literals"
+    ]
+  ]
+}

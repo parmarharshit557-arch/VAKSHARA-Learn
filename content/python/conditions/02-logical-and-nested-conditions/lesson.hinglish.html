@@ -1,0 +1,9 @@
+<article class="vakshara-lesson"><p class="eyebrow">BILKUL BASIC SE</p><h1>Logical operators and nested conditions</h1><p>Logical operators multiple conditions ko combine karte hain. Nested if mein ek decision ke andar doosra decision hota hai; inner check tabhi hota hai jab outer condition us tak pahunchti hai.</p><h2>Real-life example</h2><p>Nested decision building ke gates jaisa hai: pehle outer gate pass hoga, tabhi andar ka question check hoga.</p><h2>Step-by-step samjhaav</h2><ol><li>Outer if mein has_id True hai, isliye Python andar jaata hai.</li><li>Andar inner if has_ticket ko check karta hai. Ye bhi True hai.</li><li>Isliye Entry allowed print hota hai.</li></ol><h2>Python example</h2><pre><code>has_id = True
+has_ticket = True
+if has_id:
+    if has_ticket:
+        print(&quot;Entry allowed&quot;)
+    else:
+        print(&quot;Ticket needed&quot;)
+else:
+    print(&quot;ID needed&quot;)</code></pre><h2>Expected output</h2><pre>Entry allowed</pre><h2>Common mistake</h2><p>Indentation decide karti hai ki kaunsa if kis ke andar hai. Galat indentation se else galat if ke saath attach ho sakta hai.</p><h2>Yaad rakho</h2><p>and = dono pass; or = kam se kam ek pass; nested if = ek decision ke andar doosra.</p></article>

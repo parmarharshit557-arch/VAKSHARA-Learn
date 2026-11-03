@@ -1,0 +1,12 @@
+<article class="vakshara-lesson"><p class="eyebrow">BILKUL BASIC SE</p><h1>Identity, swapping, complex numbers and output</h1><p>Is topic group mein object identity, variable swapping, complex numbers aur print formatting samjhenge. Equality values compare karti hai; identity check karti hai ki dono references same object ko point karte hain ya nahi.</p><h2>Real-life example</h2><p>Equality poochti hai ki do notebooks mein content same hai ya nahi. Identity poochti hai ki dono names ek hi physical notebook ko point kar rahe hain ya nahi.</p><h2>Step-by-step samjhaav</h2><ol><li>a aur b ki values same hain, isliye == True hai.</li><li>Dono alag list objects hain, isliye a is b False hai.</li><li>c, a wale same object ko refer karta hai, isliye a is c True hai.</li><li>sep print mein values ke beech ka separator badalta hai.</li></ol><h2>Python example</h2><pre><code>a = [1, 2]
+b = [1, 2]
+c = a
+print(a == b)
+print(a is b)
+print(a is c)
+
+name, age = &quot;Asha&quot;, 18
+print(name, age, sep=&quot; - &quot;)</code></pre><h2>Expected output</h2><pre>True
+False
+True
+Asha - 18</pre><h2>Common mistake</h2><p>Numbers ya strings ki value compare karne ke liye is use mat karo. == use karo; is ka common use value is None hai.</p><h2>Yaad rakho</h2><p>== poochta hai “value same?”; is poochta hai “object same?”</p></article>

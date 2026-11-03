@@ -1,0 +1,16 @@
+{
+  "officialDocs": [
+    [
+      "Python tutorial — for and range",
+      "https://docs.python.org/3.14/tutorial/controlflow.html#for-statements"
+    ],
+    [
+      "Python tutorial — while",
+      "https://docs.python.org/3.14/reference/compound_stmts.html#the-while-statement"
+    ],
+    [
+      "Python tutorial — break and continue",
+      "https://docs.python.org/3.14/tutorial/controlflow.html#break-and-continue-statements"
+    ]
+  ]
+}

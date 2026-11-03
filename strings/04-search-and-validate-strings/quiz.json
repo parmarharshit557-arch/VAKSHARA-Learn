@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "What does find() return if the substring is absent?",
+    "options": [
+      "0",
+      "None",
+      "-1",
+      "ValueError"
+    ],
+    "answer": 2,
+    "whyEn": "find() returns -1 when it cannot locate the substring.",
+    "whyHi": "Substring nahi mile toh find() -1 return karta hai.",
+    "promptHi": "Agar substring nahi milti, toh find() kya return karta hai?",
+    "optionsHi": [
+      "0",
+      "None",
+      "-1",
+      "ValueError"
+    ]
+  },
+  {
+    "prompt": "Which method checks whether a string ends with a suffix?",
+    "options": [
+      "startswith()",
+      "endswith()",
+      "strip()",
+      "split()"
+    ],
+    "answer": 1,
+    "whyEn": "endswith(suffix) returns a Boolean indicating whether the string ends with that suffix.",
+    "whyHi": "endswith() check karta hai ki string given suffix par end hoti hai ya nahi.",
+    "promptHi": "Kaunsa method check karta hai ki string kisi suffix par end hoti hai?",
+    "optionsHi": [
+      "startswith()",
+      "endswith()",
+      "strip()",
+      "split()"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about searching and testing text?",
+    "promptHi": "Searching and testing text ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "Strings are immutable: a method returns a new string rather than changing the original.",
+      "Positive indices start at 0; negative indices count from the end.",
+      "find() returns -1 when no match is found.",
+      "Slicing uses start:stop:step and excludes stop."
+    ],
+    "optionsHi": [
+      "String immutable hai: method naya string deta hai, original ko modify nahi karta.",
+      "Positive index 0 se start; negative index end se count karta hai.",
+      "find() match na mile toh -1 return karta hai.",
+      "Slicing mein stop index exclude hota hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Searching and testing text. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Searching and testing text ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "Strings are immutable: a method returns a new string rather than changing the original.",
+      "Positive indices start at 0; negative indices count from the end.",
+      "Slicing uses start:stop:step and excludes stop.",
+      "index() raises ValueError when the substring is absent."
+    ],
+    "optionsHi": [
+      "String immutable hai: method naya string deta hai, original ko modify nahi karta.",
+      "Positive index 0 se start; negative index end se count karta hai.",
+      "Slicing mein stop index exclude hota hai.",
+      "index() substring absent hone par ValueError raise karta hai."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Searching and testing text. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Searching and testing text ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "startswith(), endswith() and string tests help validate input.",
+      "Strings are immutable: a method returns a new string rather than changing the original.",
+      "Positive indices start at 0; negative indices count from the end.",
+      "Slicing uses start:stop:step and excludes stop."
+    ],
+    "optionsHi": [
+      "startswith(), endswith() aur string checks input validation mein helpful hain.",
+      "String immutable hai: method naya string deta hai, original ko modify nahi karta.",
+      "Positive index 0 se start; negative index end se count karta hai.",
+      "Slicing mein stop index exclude hota hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in Searching and testing text. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Searching and testing text ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

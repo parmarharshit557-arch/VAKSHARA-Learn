@@ -1,0 +1,16 @@
+{
+  "officialDocs": [
+    [
+      "Python tutorial — Data Structures",
+      "https://docs.python.org/3.14/tutorial/datastructures.html"
+    ],
+    [
+      "Built-in types — Tuples",
+      "https://docs.python.org/3.14/library/stdtypes.html#tuples"
+    ],
+    [
+      "Built-in types — Set Types",
+      "https://docs.python.org/3.14/library/stdtypes.html#set-types-set-frozenset"
+    ]
+  ]
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "What is a program?",
+    "promptHi": "Program kya hota hai?",
+    "options": [
+      "A sequence of instructions for a task",
+      "Only a computer screen",
+      "A random collection of words",
+      "A type of keyboard"
+    ],
+    "optionsHi": [
+      "Kisi task ke liye instructions ka sequence",
+      "Sirf computer screen",
+      "Random words ka collection",
+      "Keyboard ka type"
+    ],
+    "answer": 0,
+    "whyEn": "A program is a set of instructions arranged to make a computer perform a task.",
+    "whyHi": "Program instructions ka set hai jo computer se task karwata hai."
+  },
+  {
+    "prompt": "What is Python in this lesson?",
+    "promptHi": "Is lesson mein Python kya hai?",
+    "options": [
+      "A programming language",
+      "A database table",
+      "A web browser",
+      "A spreadsheet"
+    ],
+    "optionsHi": [
+      "Programming language",
+      "Database table",
+      "Web browser",
+      "Spreadsheet"
+    ],
+    "answer": 0,
+    "whyEn": "Python is a programming language used to write instructions for a computer.",
+    "whyHi": "Python programming language hai jisme computer ke liye instructions likhte hain."
+  },
+  {
+    "prompt": "What does a program need from the programmer?",
+    "promptHi": "Program ko programmer se kya chahiye?",
+    "options": [
+      "Clear and correctly written instructions",
+      "Guessing and vague wishes",
+      "Only pictures",
+      "No order at all"
+    ],
+    "optionsHi": [
+      "Clear aur sahi instructions",
+      "Guessing aur vague wishes",
+      "Sirf pictures",
+      "Koi order hi nahi"
+    ],
+    "answer": 0,
+    "whyEn": "Computers follow the instructions we provide; they do not guess missing steps.",
+    "whyHi": "Computer wahi instructions follow karta hai jo hum dete hain; missing steps guess nahi karta."
+  },
+  {
+    "prompt": "Which is a real area where Python is used?",
+    "promptHi": "Python ka real use kis area mein hota hai?",
+    "options": [
+      "Automation and data work",
+      "Only changing monitor brightness",
+      "Only typing documents",
+      "Only drawing with a mouse"
+    ],
+    "optionsHi": [
+      "Automation aur data work",
+      "Sirf monitor brightness change karna",
+      "Sirf documents type karna",
+      "Sirf mouse se drawing"
+    ],
+    "answer": 0,
+    "whyEn": "Python is used across automation, web services, data work and AI/ML.",
+    "whyHi": "Python automation, web services, data work aur AI/ML mein use hoti hai."
+  },
+  {
+    "prompt": "What should you do first when solving a programming problem?",
+    "promptHi": "Programming problem solve karte waqt pehle kya karna chahiye?",
+    "options": [
+      "Understand the task and plan the steps",
+      "Write random code immediately",
+      "Memorise an unrelated program",
+      "Ignore the expected result"
+    ],
+    "optionsHi": [
+      "Task samjho aur steps plan karo",
+      "Turant random code likho",
+      "Unrelated program yaad karo",
+      "Expected result ignore karo"
+    ],
+    "answer": 0,
+    "whyEn": "Clear problem understanding helps you choose the correct instructions and test the result.",
+    "whyHi": "Problem clear samajhne se correct instructions choose karna aur result test karna easy hota hai."
+  }
+]

@@ -1,0 +1,8 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>Truthy, falsy values and common mistakes</h1><p>Python conditions accept more than literal True and False. Some values are falsy, such as 0, empty strings and empty collections; most other values are truthy. Branch order and indentation also matter.</p><h2>Real-life example</h2><p>A program often needs to decide whether something is present. An empty basket means “nothing here”; a basket with one apple means “something is here”. Python has the same idea for truth values.</p><h2>Step-by-step explanation</h2><ol><li>An empty list is falsy.</li><li>An empty string is falsy.</li><li>A non-empty list is truthy.</li></ol><h2>Python example</h2><pre><code>values = []
+name = &quot;&quot;
+subjects = [&quot;Python&quot;]
+print(bool(values))
+print(bool(name))
+print(bool(subjects))</code></pre><h2>Expected output</h2><pre>False
+False
+True</pre><h2>Common mistake</h2><p>Do not write if value == True when you only need a truth test. Usually write if value: or if not value:.</p><h2>Remember this</h2><p>Empty built-in containers and empty text are falsy; non-empty ones are truthy.</p></article>

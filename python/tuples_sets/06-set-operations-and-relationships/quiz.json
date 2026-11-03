@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "Which operator gives items common to both sets?",
+    "options": [
+      "|",
+      "&",
+      "-",
+      "^"
+    ],
+    "answer": 1,
+    "whyEn": "Intersection (&) keeps elements present in both sets.",
+    "whyHi": "Intersection (&) dono sets ke common elements rakhta hai.",
+    "promptHi": "Dono sets ke common items nikalne ke liye kaunsa operator use hota hai?",
+    "optionsHi": [
+      "|",
+      "&",
+      "-",
+      "^"
+    ]
+  },
+  {
+    "prompt": "Is A - B always equal to B - A?",
+    "options": [
+      "Yes",
+      "No, difference is directional",
+      "Only for numbers",
+      "Only for equal sets"
+    ],
+    "answer": 1,
+    "whyEn": "Difference keeps items in the left set that are not in the right, so order matters.",
+    "whyHi": "Difference left set ke unique items rakhta hai; direction matter karti hai.",
+    "promptHi": "Kya A - B hamesha B - A ke equal hota hai?",
+    "optionsHi": [
+      "Haan",
+      "No, difference is directional",
+      "Sirf numbers ke liye",
+      "Sirf equal sets ke liye"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about set operations and relationships?",
+    "promptHi": "Set operations and relationships ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "Tuples are commonly written with commas; parentheses improve clarity.",
+      "A one-item tuple needs a trailing comma: (5,).",
+      "Indexing and slicing work like other sequences.",
+      "A | B is union."
+    ],
+    "optionsHi": [
+      "Tuple comma se define hoti hai; parentheses readability badhate hain.",
+      "One-item tuple ke liye trailing comma zaroori hai: (5,).",
+      "Indexing aur slicing doosri sequences ki tarah hoti hai.",
+      "A | B union hai."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Set operations and relationships. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Set operations and relationships ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "A & B is intersection.",
+      "Tuples are commonly written with commas; parentheses improve clarity.",
+      "A one-item tuple needs a trailing comma: (5,).",
+      "Indexing and slicing work like other sequences."
+    ],
+    "optionsHi": [
+      "A & B intersection hai.",
+      "Tuple comma se define hoti hai; parentheses readability badhate hain.",
+      "One-item tuple ke liye trailing comma zaroori hai: (5,).",
+      "Indexing aur slicing doosri sequences ki tarah hoti hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in Set operations and relationships. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Set operations and relationships ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "Tuples are commonly written with commas; parentheses improve clarity.",
+      "A - B is directional difference.",
+      "A one-item tuple needs a trailing comma: (5,).",
+      "Indexing and slicing work like other sequences."
+    ],
+    "optionsHi": [
+      "Tuple comma se define hoti hai; parentheses readability badhate hain.",
+      "A - B directional difference hai.",
+      "One-item tuple ke liye trailing comma zaroori hai: (5,).",
+      "Indexing aur slicing doosri sequences ki tarah hoti hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Set operations and relationships. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Set operations and relationships ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

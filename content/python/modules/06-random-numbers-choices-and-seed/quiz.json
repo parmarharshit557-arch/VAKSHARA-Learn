@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "Does randint(1, 6) include 6?",
+    "options": [
+      "Yes",
+      "No",
+      "Only if seeded",
+      "Only in Python 2"
+    ],
+    "answer": 0,
+    "whyEn": "randint(a, b) is equivalent to randrange(a, b+1), so both endpoints are included.",
+    "whyHi": "randint(a, b) dono endpoints include karta hai, isliye 6 possible hai.",
+    "promptHi": "Kya randint(1, 6) mein 6 include hota hai?",
+    "optionsHi": [
+      "Haan",
+      "Nahi",
+      "Sirf seed set hone par",
+      "Sirf Python 2 mein"
+    ]
+  },
+  {
+    "prompt": "What does random.shuffle(items) return?",
+    "options": [
+      "A new shuffled list",
+      "The first item",
+      "None",
+      "A tuple"
+    ],
+    "answer": 2,
+    "whyEn": "shuffle() mutates the list in place and returns None.",
+    "whyHi": "shuffle() original list ko in-place change karta hai aur None deta hai.",
+    "promptHi": "random.shuffle(items) kya return karta hai?",
+    "optionsHi": [
+      "Ek nayi shuffled list",
+      "Pehla item",
+      "None",
+      "Ek tuple"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about random numbers, choices and seed?",
+    "promptHi": "Random numbers, choices and seed ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "import math then math.sqrt(25) uses the module name.",
+      "from math import sqrt imports the selected name directly.",
+      "randint(a, b) includes both endpoints.",
+      "Aliases such as import math as m shorten a module reference."
+    ],
+    "optionsHi": [
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "from math import sqrt selected name directly import karta hai.",
+      "randint(a, b) dono endpoints include karta hai.",
+      "import math as m jaisa alias module reference short karta hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Random numbers, choices and seed. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Random numbers, choices and seed ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "import math then math.sqrt(25) uses the module name.",
+      "from math import sqrt imports the selected name directly.",
+      "Aliases such as import math as m shorten a module reference.",
+      "randrange(start, stop, step) excludes stop."
+    ],
+    "optionsHi": [
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "from math import sqrt selected name directly import karta hai.",
+      "import math as m jaisa alias module reference short karta hai.",
+      "randrange(start, stop, step) stop exclude karta hai."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Random numbers, choices and seed. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Random numbers, choices and seed ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "choice() picks one item; sample() picks unique items without replacement.",
+      "import math then math.sqrt(25) uses the module name.",
+      "from math import sqrt imports the selected name directly.",
+      "Aliases such as import math as m shorten a module reference."
+    ],
+    "optionsHi": [
+      "choice() ek item pick karta hai; sample() without replacement unique selections deta hai.",
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "from math import sqrt selected name directly import karta hai.",
+      "import math as m jaisa alias module reference short karta hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in Random numbers, choices and seed. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Random numbers, choices and seed ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

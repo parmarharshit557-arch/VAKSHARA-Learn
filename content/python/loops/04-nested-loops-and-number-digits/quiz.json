@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "If n = 538, what is n % 10?",
+    "options": [
+      "5",
+      "3",
+      "8",
+      "53"
+    ],
+    "answer": 2,
+    "whyEn": "The remainder after division by 10 is the last digit: 8.",
+    "whyHi": "10 se divide karne par remainder last digit hota hai: 8.",
+    "promptHi": "Agar n = 538 ho, toh n % 10 kya dega?",
+    "optionsHi": [
+      "5",
+      "3",
+      "8",
+      "53"
+    ]
+  },
+  {
+    "prompt": "If n = 538, what is n // 10?",
+    "options": [
+      "8",
+      "53",
+      "5380",
+      "5"
+    ],
+    "answer": 1,
+    "whyEn": "Floor division by 10 removes the last decimal digit for a non-negative integer.",
+    "whyHi": "538 // 10 karne par last digit remove ho kar 53 bachta hai.",
+    "promptHi": "Agar n = 538 ho, toh n // 10 kya dega?",
+    "optionsHi": [
+      "8",
+      "53",
+      "5380",
+      "5"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about nested loops and processing number digits?",
+    "promptHi": "Nested loops and processing number digits ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "for visits each item in an iterable.",
+      "The inner loop runs fully for each outer-loop iteration.",
+      "range(start, stop, step) excludes stop.",
+      "while repeats as long as its condition is true."
+    ],
+    "optionsHi": [
+      "for iterable ke har item par chalta hai.",
+      "Outer loop ki har iteration par inner loop poora run hota hai.",
+      "range(start, stop, step) mein stop include nahi hota.",
+      "while condition True rehne tak repeat karta hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Nested loops and processing number digits. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Nested loops and processing number digits ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "for visits each item in an iterable.",
+      "range(start, stop, step) excludes stop.",
+      "n % 10 gives the last decimal digit of a non-negative integer.",
+      "while repeats as long as its condition is true."
+    ],
+    "optionsHi": [
+      "for iterable ke har item par chalta hai.",
+      "range(start, stop, step) mein stop include nahi hota.",
+      "Non-negative integer ke liye n % 10 last decimal digit deta hai.",
+      "while condition True rehne tak repeat karta hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Nested loops and processing number digits. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Nested loops and processing number digits ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "for visits each item in an iterable.",
+      "range(start, stop, step) excludes stop.",
+      "while repeats as long as its condition is true.",
+      "n // 10 removes the last decimal digit."
+    ],
+    "optionsHi": [
+      "for iterable ke har item par chalta hai.",
+      "range(start, stop, step) mein stop include nahi hota.",
+      "while condition True rehne tak repeat karta hai.",
+      "n // 10 last decimal digit remove karta hai."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Nested loops and processing number digits. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Nested loops and processing number digits ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

@@ -1,0 +1,9 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>Logical operators and nested conditions</h1><p>Logical operators combine conditions. A nested if places one decision inside another, so the second check happens only when the outer branch reaches it.</p><h2>Real-life example</h2><p>A nested decision is like entering a building: first the outside gate must open; only then do you reach the inner room and answer its question.</p><h2>Step-by-step explanation</h2><ol><li>The outer if checks has_id. It is True, so Python enters it.</li><li>Inside, the inner if checks has_ticket. It is also True.</li><li>The program prints Entry allowed.</li></ol><h2>Python example</h2><pre><code>has_id = True
+has_ticket = True
+if has_id:
+    if has_ticket:
+        print(&quot;Entry allowed&quot;)
+    else:
+        print(&quot;Ticket needed&quot;)
+else:
+    print(&quot;ID needed&quot;)</code></pre><h2>Expected output</h2><pre>Entry allowed</pre><h2>Common mistake</h2><p>Indentation decides which if belongs inside another if. A wrongly indented else can attach to a different if.</p><h2>Remember this</h2><p>and = both checks must pass; or = at least one; nested if = one decision inside another.</p></article>

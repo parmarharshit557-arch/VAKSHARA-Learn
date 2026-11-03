@@ -1,0 +1,12 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>Identity, swapping, complex numbers and output</h1><p>This group connects object identity, multiple assignment, complex-number values and formatted output. One key distinction: equality compares values; identity asks whether two references point to the same object.</p><h2>Real-life example</h2><p>Equality is asking whether two notebooks contain the same answers. Identity is asking whether both names point to the very same physical notebook.</p><h2>Step-by-step explanation</h2><ol><li>a and b contain equal values, so == is True.</li><li>They are separate list objects, so a is b is False.</li><li>c refers to the same object as a, so a is c is True.</li><li>sep changes the text printed between values.</li></ol><h2>Python example</h2><pre><code>a = [1, 2]
+b = [1, 2]
+c = a
+print(a == b)
+print(a is b)
+print(a is c)
+
+name, age = &quot;Asha&quot;, 18
+print(name, age, sep=&quot; - &quot;)</code></pre><h2>Expected output</h2><pre>True
+False
+True
+Asha - 18</pre><h2>Common mistake</h2><p>Do not use is to compare ordinary numbers or strings by value. Use == for equality; use is mainly for identity checks such as value is None.</p><h2>Remember this</h2><p>== asks “same value?”; is asks “same object?”.</p></article>

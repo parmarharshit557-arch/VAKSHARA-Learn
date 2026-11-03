@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "What does \"hello\".upper() return?",
+    "options": [
+      "hello",
+      "HELLO",
+      "Hello",
+      "Error"
+    ],
+    "answer": 1,
+    "whyEn": "upper() returns a copy with cased characters converted to uppercase.",
+    "whyHi": "upper() uppercase letters wala naya string return karta hai.",
+    "promptHi": "\"hello\".upper() kya return karega?",
+    "optionsHi": [
+      "hello",
+      "HELLO",
+      "Hello",
+      "Error"
+    ]
+  },
+  {
+    "prompt": "Which escape sequence represents a newline?",
+    "options": [
+      "\\t",
+      "\\n",
+      "\\r?",
+      "\\0"
+    ],
+    "answer": 1,
+    "whyEn": "The backslash-n escape sequence represents a line feed/newline.",
+    "whyHi": "Backslash-n newline represent karta hai.",
+    "promptHi": "New line represent karne ke liye kaunsi escape sequence use hoti hai?",
+    "optionsHi": [
+      "\\t",
+      "\\n",
+      "\\r?",
+      "\\0"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about string methods, case changes, joining and escape sequences?",
+    "promptHi": "String methods, case changes, joining and escape sequences ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "Methods use dot notation, such as text.upper().",
+      "Strings are immutable: a method returns a new string rather than changing the original.",
+      "Positive indices start at 0; negative indices count from the end.",
+      "Slicing uses start:stop:step and excludes stop."
+    ],
+    "optionsHi": [
+      "Methods dot notation se use hote hain, jaise text.upper().",
+      "String immutable hai: method naya string deta hai, original ko modify nahi karta.",
+      "Positive index 0 se start; negative index end se count karta hai.",
+      "Slicing mein stop index exclude hota hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in String methods, case changes, joining and escape sequences. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye String methods, case changes, joining and escape sequences ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "Strings are immutable: a method returns a new string rather than changing the original.",
+      "Strings can be joined with + or formatted with f-strings.",
+      "Positive indices start at 0; negative indices count from the end.",
+      "Slicing uses start:stop:step and excludes stop."
+    ],
+    "optionsHi": [
+      "String immutable hai: method naya string deta hai, original ko modify nahi karta.",
+      "Strings ko + se join ya f-string se format kar sakte hain.",
+      "Positive index 0 se start; negative index end se count karta hai.",
+      "Slicing mein stop index exclude hota hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in String methods, case changes, joining and escape sequences. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye String methods, case changes, joining and escape sequences ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "Strings are immutable: a method returns a new string rather than changing the original.",
+      "Positive indices start at 0; negative indices count from the end.",
+      "\n represents a newline; \t represents a tab.",
+      "Slicing uses start:stop:step and excludes stop."
+    ],
+    "optionsHi": [
+      "String immutable hai: method naya string deta hai, original ko modify nahi karta.",
+      "Positive index 0 se start; negative index end se count karta hai.",
+      "\n newline aur \t tab represent karta hai.",
+      "Slicing mein stop index exclude hota hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in String methods, case changes, joining and escape sequences. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye String methods, case changes, joining and escape sequences ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

@@ -1,0 +1,6 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>List comprehensions</h1><p>A list comprehension builds a new list from an iterable. It can transform each value and optionally keep only values that satisfy a condition.</p><h2>Real-life example</h2><p>A comprehension is a compact recipe: take each item from a collection, transform it, and optionally keep only items that pass a condition.</p><h2>Step-by-step explanation</h2><ol><li>for n in numbers visits each number.</li><li>n * n creates the transformed value for squares.</li><li>The if condition keeps only even numbers in evens.</li></ol><h2>Python example</h2><pre><code>numbers = [1, 2, 3, 4]
+squares = [n * n for n in numbers]
+evens = [n for n in numbers if n % 2 == 0]
+print(squares)
+print(evens)</code></pre><h2>Expected output</h2><pre>[1, 4, 9, 16]
+[2, 4]</pre><h2>Common mistake</h2><p>Do not squeeze a complicated multi-step program into one unreadable comprehension. Use a normal loop when clarity suffers.</p><h2>Remember this</h2><p>[expression for item in iterable if condition] — read it from left to right.</p></article>

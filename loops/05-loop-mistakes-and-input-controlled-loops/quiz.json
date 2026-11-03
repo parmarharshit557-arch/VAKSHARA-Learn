@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "What commonly causes an unintended infinite while loop?",
+    "options": [
+      "Updating the loop variable correctly",
+      "The condition never becomes False",
+      "Using print()",
+      "Using a for loop"
+    ],
+    "answer": 1,
+    "whyEn": "If the values controlling the condition never change toward termination, the loop can continue forever.",
+    "whyHi": "Agar condition ko control karne wali value update nahi hoti, loop rukta nahi.",
+    "promptHi": "while loop ke anjaane mein infinite ho jaane ka common reason kya hai?",
+    "optionsHi": [
+      "Updating the loop variable correctly",
+      "The condition never becomes False",
+      "Using print()",
+      "Using a for loop"
+    ]
+  },
+  {
+    "prompt": "What is a sentinel value used for?",
+    "options": [
+      "To colour code",
+      "To signal that input should stop",
+      "To sort a list",
+      "To declare a function"
+    ],
+    "answer": 1,
+    "whyEn": "A sentinel is a chosen input value that tells the loop to finish.",
+    "whyHi": "Sentinel ek special input value hoti hai jo loop ko stop karne ka signal deti hai.",
+    "promptHi": "Sentinel value ka use kis kaam ke liye hota hai?",
+    "optionsHi": [
+      "Colour code karne ke liye",
+      "Input stop karne ka signal dene ke liye",
+      "List sort karne ke liye",
+      "Function declare karne ke liye"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about loop mistakes and input-controlled loops?",
+    "promptHi": "Loop mistakes and input-controlled loops ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "for visits each item in an iterable.",
+      "range(start, stop, step) excludes stop.",
+      "while repeats as long as its condition is true.",
+      "An infinite loop may happen when its condition never becomes false."
+    ],
+    "optionsHi": [
+      "for iterable ke har item par chalta hai.",
+      "range(start, stop, step) mein stop include nahi hota.",
+      "while condition True rehne tak repeat karta hai.",
+      "Condition False na ho toh infinite loop ho sakta hai."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Loop mistakes and input-controlled loops. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Loop mistakes and input-controlled loops ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "A sentinel value tells an input loop when to stop.",
+      "for visits each item in an iterable.",
+      "range(start, stop, step) excludes stop.",
+      "while repeats as long as its condition is true."
+    ],
+    "optionsHi": [
+      "Sentinel value input loop ko batati hai kab stop karna hai.",
+      "for iterable ke har item par chalta hai.",
+      "range(start, stop, step) mein stop include nahi hota.",
+      "while condition True rehne tak repeat karta hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in Loop mistakes and input-controlled loops. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Loop mistakes and input-controlled loops ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "for visits each item in an iterable.",
+      "Validate input before using it in later calculations.",
+      "range(start, stop, step) excludes stop.",
+      "while repeats as long as its condition is true."
+    ],
+    "optionsHi": [
+      "for iterable ke har item par chalta hai.",
+      "Input ko calculation se pehle validate karein.",
+      "range(start, stop, step) mein stop include nahi hota.",
+      "while condition True rehne tak repeat karta hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Loop mistakes and input-controlled loops. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Loop mistakes and input-controlled loops ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

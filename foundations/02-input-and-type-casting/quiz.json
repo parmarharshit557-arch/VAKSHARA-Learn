@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "What is the return type of input(\"Age: \")?",
+    "options": [
+      "int",
+      "float",
+      "str",
+      "bool"
+    ],
+    "answer": 2,
+    "whyEn": "input() returns a string. Convert it explicitly if a number is needed.",
+    "whyHi": "input() string deta hai. Number chahiye toh explicit conversion karna hoga.",
+    "promptHi": "input(\"Age: \") ka return type kya hota hai?",
+    "optionsHi": [
+      "int",
+      "float",
+      "str",
+      "bool"
+    ]
+  },
+  {
+    "prompt": "Which conversion is suitable when decimal values are allowed?",
+    "options": [
+      "int()",
+      "float()",
+      "str()",
+      "bool()"
+    ],
+    "answer": 1,
+    "whyEn": "float() can represent values with a fractional part.",
+    "whyHi": "Decimal part allow ho toh float() use karte hain.",
+    "promptHi": "Decimal values allow karni hon toh kaunsa conversion suitable hai?",
+    "optionsHi": [
+      "int()",
+      "float()",
+      "str()",
+      "bool()"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about user input and type conversion?",
+    "promptHi": "User input and type conversion ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "Use type(value) to inspect a value.",
+      "input() returns str, even when the user types digits.",
+      "25 is an int; \"25\" is a str.",
+      "Python is dynamically typed: you assign a value without declaring a type first."
+    ],
+    "optionsHi": [
+      "type(value) se value ka type check hota hai.",
+      "input() ka result hamesha string hota hai, digits type karne par bhi.",
+      "25 integer hai, jabki \"25\" text/string hai.",
+      "Python dynamically typed hai: value assign karte hi variable us value ko refer karta hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in User input and type conversion. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye User input and type conversion ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "Use type(value) to inspect a value.",
+      "25 is an int; \"25\" is a str.",
+      "int() converts to an integer; float() converts to a floating-point number.",
+      "Python is dynamically typed: you assign a value without declaring a type first."
+    ],
+    "optionsHi": [
+      "type(value) se value ka type check hota hai.",
+      "25 integer hai, jabki \"25\" text/string hai.",
+      "int() integer aur float() decimal number mein convert karta hai.",
+      "Python dynamically typed hai: value assign karte hi variable us value ko refer karta hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in User input and type conversion. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye User input and type conversion ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "Use type(value) to inspect a value.",
+      "25 is an int; \"25\" is a str.",
+      "Python is dynamically typed: you assign a value without declaring a type first.",
+      "Invalid text can raise ValueError during conversion."
+    ],
+    "optionsHi": [
+      "type(value) se value ka type check hota hai.",
+      "25 integer hai, jabki \"25\" text/string hai.",
+      "Python dynamically typed hai: value assign karte hi variable us value ko refer karta hai.",
+      "Invalid text ko number mein convert karne par ValueError aa sakta hai."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in User input and type conversion. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye User input and type conversion ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

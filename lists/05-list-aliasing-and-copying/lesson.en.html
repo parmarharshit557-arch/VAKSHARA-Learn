@@ -1,0 +1,8 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>Aliasing and copying lists</h1><p>Assignment does not automatically copy a list. Two names can refer to the same object (an alias). Use copy(), slicing or list() for a shallow outer copy, and understand nested mutable objects.</p><h2>Real-life example</h2><p>Two labels on the same storage box do not create two boxes. If both labels point to one list, changing it through either name changes the same list.</p><h2>Step-by-step explanation</h2><ol><li>alias = original makes a second name for the same list object.</li><li>Appending through alias changes original too.</li><li>copy() creates a separate outer list, so appending to copy does not change original.</li></ol><h2>Python example</h2><pre><code>original = [10, 20]
+alias = original
+copy = original.copy()
+alias.append(30)
+copy.append(40)
+print(original)
+print(copy)</code></pre><h2>Expected output</h2><pre>[10, 20, 30]
+[10, 20, 40]</pre><h2>Common mistake</h2><p>A shallow copy separates the outer list but does not recursively copy nested lists inside it.</p><h2>Remember this</h2><p>Assignment creates another reference; copy() creates a separate outer list.</p></article>

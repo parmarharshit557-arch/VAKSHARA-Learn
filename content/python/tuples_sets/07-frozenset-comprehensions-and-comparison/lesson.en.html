@@ -1,0 +1,6 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>Frozenset, set comprehensions and collection comparison</h1><p>frozenset is an immutable set. Set comprehensions build a set from an iterable. Combining lists and sets helps remove duplicates or find overlap; compare collection properties before choosing one.</p><h2>Real-life example</h2><p>A regular set is a whiteboard list you can edit. A frozenset is a laminated version: it keeps unique items but cannot be changed after creation.</p><h2>Step-by-step explanation</h2><ol><li>The set comprehension squares every number.</li><li>Repeated input values would not create repeated set items.</li><li>frozenset stores unique items but does not offer mutating methods.</li></ol><h2>Python example</h2><pre><code>numbers = [1, 2, 2, 3, 4]
+unique_squares = {n * n for n in numbers}
+locked = frozenset({&quot;read&quot;, &quot;write&quot;})
+print(sorted(unique_squares))
+print(&quot;read&quot; in locked)</code></pre><h2>Expected output</h2><pre>[1, 4, 9, 16]
+True</pre><h2>Common mistake</h2><p>A set comprehension uses curly braces with an expression; a dictionary comprehension uses key: value pairs.</p><h2>Remember this</h2><p>set = unique and mutable; frozenset = unique and immutable.</p></article>

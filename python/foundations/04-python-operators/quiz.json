@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "What does 9 % 4 return?",
+    "options": [
+      "1",
+      "2",
+      "2.25",
+      "0"
+    ],
+    "answer": 0,
+    "whyEn": "The modulo operator returns the remainder; 9 divided by 4 leaves remainder 1.",
+    "whyHi": "% remainder deta hai. 9 ko 4 se divide karne par remainder 1 hai.",
+    "promptHi": "9 % 4 ka result kya hoga?",
+    "optionsHi": [
+      "1",
+      "2",
+      "2.25",
+      "0"
+    ]
+  },
+  {
+    "prompt": "What is the result of 5 > 3 and 2 < 1?",
+    "options": [
+      "True",
+      "False",
+      "2",
+      "Error"
+    ],
+    "answer": 1,
+    "whyEn": "The first condition is True, the second is False; and requires both to be True.",
+    "whyHi": "Pehli condition True hai, doosri False. and mein dono True honi chahiye.",
+    "promptHi": "5 > 3 and 2 < 1 ka result kya hoga?",
+    "optionsHi": [
+      "True",
+      "False",
+      "2",
+      "Error"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about python operators?",
+    "promptHi": "Python operators ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "Use type(value) to inspect a value.",
+      "25 is an int; \"25\" is a str.",
+      "Python is dynamically typed: you assign a value without declaring a type first.",
+      "Arithmetic operators calculate values."
+    ],
+    "optionsHi": [
+      "type(value) se value ka type check hota hai.",
+      "25 integer hai, jabki \"25\" text/string hai.",
+      "Python dynamically typed hai: value assign karte hi variable us value ko refer karta hai.",
+      "Arithmetic operators calculation karte hain."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Python operators. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Python operators ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "Comparison operators return True or False.",
+      "Use type(value) to inspect a value.",
+      "25 is an int; \"25\" is a str.",
+      "Python is dynamically typed: you assign a value without declaring a type first."
+    ],
+    "optionsHi": [
+      "Comparison operators True ya False dete hain.",
+      "type(value) se value ka type check hota hai.",
+      "25 integer hai, jabki \"25\" text/string hai.",
+      "Python dynamically typed hai: value assign karte hi variable us value ko refer karta hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in Python operators. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Python operators ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "Use type(value) to inspect a value.",
+      "and/or/not combine or reverse Boolean conditions.",
+      "25 is an int; \"25\" is a str.",
+      "Python is dynamically typed: you assign a value without declaring a type first."
+    ],
+    "optionsHi": [
+      "type(value) se value ka type check hota hai.",
+      "and/or/not Boolean conditions ko combine ya reverse karte hain.",
+      "25 integer hai, jabki \"25\" text/string hai.",
+      "Python dynamically typed hai: value assign karte hi variable us value ko refer karta hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Python operators. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Python operators ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

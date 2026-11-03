@@ -1,0 +1,7 @@
+<article class="vakshara-lesson"><p class="eyebrow">BILKUL BASIC SE</p><h1>Modules and import styles</h1><p>Module Python file hoti hai jo reusable code group karti hai. import se module ke names available hote hain; import style ke hisaab se unhe refer karne ka tareeka badalta hai.</p><h2>Real-life example</h2><p>Module toolbox jaisa hai. Har tool khud banane ke bajaye toolbox import karke required tool use karte ho.</p><h2>Step-by-step samjhaav</h2><ol><li>import math se module math naam se available hota hai.</li><li>math.sqrt module ke through square-root function access karta hai.</li><li>randint ko roll alias se import kiya; iska output har run mein badal sakta hai.</li></ol><h2>Python example</h2><pre><code>import math
+import random
+from random import randint as roll
+random.seed(7)
+print(math.sqrt(25))
+print(roll(1, 6))</code></pre><h2>Expected output</h2><pre>5.0
+3</pre><h2>Common mistake</h2><p>Agar import math likha hai toh math.sqrt(25) call karo. Sirf sqrt(25) tab chalega jab sqrt direct import kiya ho.</p><h2>Yaad rakho</h2><p>Module import karo toh module.name; direct name import karo toh name directly.</p></article>

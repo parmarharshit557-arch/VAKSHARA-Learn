@@ -1,0 +1,6 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>String basics, immutability, indexing and slicing</h1><p>A string is an immutable sequence of Unicode characters. Indexing selects one character; slicing creates a new piece using start:stop:step, with the stop position excluded.</p><h2>Real-life example</h2><p>A string is like a row of letter tiles. Each tile has a position, so you can pick one character or take a slice of consecutive characters.</p><h2>Step-by-step explanation</h2><ol><li>Index 0 points to the first character P.</li><li>Index -1 points to the last character N.</li><li>Slice [1:4] starts at index 1 and stops before index 4: Y, T, H.</li></ol><h2>Python example</h2><pre><code>word = &quot;PYTHON&quot;
+print(word[0])
+print(word[-1])
+print(word[1:4])</code></pre><h2>Expected output</h2><pre>P
+N
+YTH</pre><h2>Common mistake</h2><p>Strings are immutable. You cannot do word[0] = &quot;p&quot;; create a new string with a method or slicing instead.</p><h2>Remember this</h2><p>Index picks positions; slicing picks a range; the stop index is excluded.</p></article>

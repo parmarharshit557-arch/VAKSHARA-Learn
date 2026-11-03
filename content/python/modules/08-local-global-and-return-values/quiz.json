@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "What is the default scope of a variable assigned inside a function?",
+    "options": [
+      "Global",
+      "Local to that function",
+      "Built-in",
+      "Class only"
+    ],
+    "answer": 1,
+    "whyEn": "Assignments inside a function bind local names unless declared otherwise.",
+    "whyHi": "Function ke andar assignment default mein local name banata hai.",
+    "promptHi": "Function ke andar assign kiye variable ka default scope kya hota hai?",
+    "optionsHi": [
+      "Global",
+      "Usi function ke andar local",
+      "Built-in scope",
+      "Sirf class scope"
+    ]
+  },
+  {
+    "prompt": "What is usually preferred over changing a global variable to produce a result?",
+    "options": [
+      "A parameter and return value",
+      "A print-only function",
+      "A random seed",
+      "A set"
+    ],
+    "answer": 0,
+    "whyEn": "Parameters and return values make dependencies explicit and functions easier to test.",
+    "whyHi": "Parameter aur return value dependencies clear karte hain aur function test karna easy banate hain.",
+    "promptHi": "Result dene ke liye global variable change karne ke bajaye generally kya prefer karna chahiye?",
+    "optionsHi": [
+      "Parameter aur return value",
+      "Sirf print karne wala function",
+      "Random seed",
+      "Ek set"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about local, global scope and return values?",
+    "promptHi": "Local, global scope and return values ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "import math then math.sqrt(25) uses the module name.",
+      "A variable assigned inside a function is local by default.",
+      "from math import sqrt imports the selected name directly.",
+      "Aliases such as import math as m shorten a module reference."
+    ],
+    "optionsHi": [
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "Function ke andar assign kiya variable default mein local hota hai.",
+      "from math import sqrt selected name directly import karta hai.",
+      "import math as m jaisa alias module reference short karta hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Local, global scope and return values. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Local, global scope and return values ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "import math then math.sqrt(25) uses the module name.",
+      "from math import sqrt imports the selected name directly.",
+      "global declares that a name refers to module-level scope for assignment.",
+      "Aliases such as import math as m shorten a module reference."
+    ],
+    "optionsHi": [
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "from math import sqrt selected name directly import karta hai.",
+      "global assignment ke liye module-level name declare karta hai.",
+      "import math as m jaisa alias module reference short karta hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Local, global scope and return values. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Local, global scope and return values ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "import math then math.sqrt(25) uses the module name.",
+      "from math import sqrt imports the selected name directly.",
+      "Aliases such as import math as m shorten a module reference.",
+      "Reading a global value does not normally require global."
+    ],
+    "optionsHi": [
+      "import math ke baad math.sqrt(25) module name use karta hai.",
+      "from math import sqrt selected name directly import karta hai.",
+      "import math as m jaisa alias module reference short karta hai.",
+      "Global value read karne ke liye normally global keyword nahi chahiye."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Local, global scope and return values. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Local, global scope and return values ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

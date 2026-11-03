@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "What happens in a, b = (10, 20)?",
+    "options": [
+      "a becomes (10, 20)",
+      "a=10 and b=20",
+      "Both become 10",
+      "It creates a set"
+    ],
+    "answer": 1,
+    "whyEn": "Unpacking assigns each tuple item to the corresponding target.",
+    "whyHi": "Unpacking har tuple item ko matching variable mein assign karta hai.",
+    "promptHi": "a, b = (10, 20) mein kya hota hai?",
+    "optionsHi": [
+      "a becomes (10, 20)",
+      "a=10 and b=20",
+      "Both become 10",
+      "It creates a set"
+    ]
+  },
+  {
+    "prompt": "Which built-in converts a list to a tuple?",
+    "options": [
+      "set()",
+      "dict()",
+      "tuple()",
+      "str()"
+    ],
+    "answer": 2,
+    "whyEn": "tuple(iterable) constructs a tuple from an iterable.",
+    "whyHi": "tuple(iterable) iterable se tuple banata hai.",
+    "promptHi": "List ko tuple mein convert karne ke liye kaunsa built-in use hota hai?",
+    "optionsHi": [
+      "set()",
+      "dict()",
+      "tuple()",
+      "str()"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about packing, unpacking and converting collections?",
+    "promptHi": "Packing, unpacking and converting collections ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "Tuples are commonly written with commas; parentheses improve clarity.",
+      "A one-item tuple needs a trailing comma: (5,).",
+      "Indexing and slicing work like other sequences.",
+      "Tuple packing can happen through comma-separated values."
+    ],
+    "optionsHi": [
+      "Tuple comma se define hoti hai; parentheses readability badhate hain.",
+      "One-item tuple ke liye trailing comma zaroori hai: (5,).",
+      "Indexing aur slicing doosri sequences ki tarah hoti hai.",
+      "Comma-separated values se tuple packing ho sakti hai."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Packing, unpacking and converting collections. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Packing, unpacking and converting collections ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "Unpacking needs a matching number of targets unless starred unpacking is used.",
+      "Tuples are commonly written with commas; parentheses improve clarity.",
+      "A one-item tuple needs a trailing comma: (5,).",
+      "Indexing and slicing work like other sequences."
+    ],
+    "optionsHi": [
+      "Unpacking mein targets aur values ki count match honi chahiye, starred unpacking exception hai.",
+      "Tuple comma se define hoti hai; parentheses readability badhate hain.",
+      "One-item tuple ke liye trailing comma zaroori hai: (5,).",
+      "Indexing aur slicing doosri sequences ki tarah hoti hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in Packing, unpacking and converting collections. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Packing, unpacking and converting collections ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "Tuples are commonly written with commas; parentheses improve clarity.",
+      "tuple() and list() convert between collection types.",
+      "A one-item tuple needs a trailing comma: (5,).",
+      "Indexing and slicing work like other sequences."
+    ],
+    "optionsHi": [
+      "Tuple comma se define hoti hai; parentheses readability badhate hain.",
+      "tuple() aur list() collection types convert karte hain.",
+      "One-item tuple ke liye trailing comma zaroori hai: (5,).",
+      "Indexing aur slicing doosri sequences ki tarah hoti hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Packing, unpacking and converting collections. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Packing, unpacking and converting collections ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

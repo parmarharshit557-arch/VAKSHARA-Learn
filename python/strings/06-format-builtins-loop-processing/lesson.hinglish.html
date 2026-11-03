@@ -1,0 +1,13 @@
+<article class="vakshara-lesson"><p class="eyebrow">BILKUL BASIC SE</p><h1>Formatting, built-ins and string processing</h1><p>f-strings braces ke andar expressions rakhkar readable formatting dete hain. Built-ins aur loops se text count, classify, reverse ya validate kar sakte hain.</p><h2>Real-life example</h2><p>Formatted message ready certificate ke blanks fill karne jaisa hai: sentence same rehta hai, name aur score correct jagah insert hote hain.</p><h2>Step-by-step samjhaav</h2><ol><li>f-string name ki value sentence mein insert karta hai.</li><li>.1f score ko decimal ke baad ek digit tak format karta hai.</li><li>for loop string ka har character ek-ek karke visit karta hai.</li></ol><h2>Python example</h2><pre><code>name = &quot;Asha&quot;
+score = 92.456
+print(f&quot;{name} scored {score:.1f}%&quot;)
+
+word = &quot;python&quot;
+for letter in word:
+    print(letter)</code></pre><h2>Expected output</h2><pre>Asha scored 92.5%
+p
+y
+t
+h
+o
+n</pre><h2>Common mistake</h2><p>Opening quote se pehle f lagana mat bhoolo. Bina f ke {name} normal text rahega.</p><h2>Yaad rakho</h2><p>f-string = readable message + values; string loop = har iteration mein ek character.</p></article>

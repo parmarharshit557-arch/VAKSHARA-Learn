@@ -1,0 +1,5 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>Set basics and how sets differ from sequences</h1><p>A set is an unordered collection of distinct hashable items. It removes duplicates and is useful for fast membership-style reasoning, but it does not support positional indexing or slicing.</p><h2>Real-life example</h2><p>A set is like a guest list where each name appears once. It answers “is this name present?” but it does not promise a numbered position for each name.</p><h2>Step-by-step explanation</h2><ol><li>The repeated name Asha is stored only once.</li><li>There are three distinct names.</li><li>Membership testing checks presence; set indexing is not supported.</li></ol><h2>Python example</h2><pre><code>attendees = {&quot;Asha&quot;, &quot;Rohan&quot;, &quot;Asha&quot;, &quot;Mina&quot;}
+print(len(attendees))
+print(&quot;Rohan&quot; in attendees)
+empty_set = set()</code></pre><h2>Expected output</h2><pre>3
+True</pre><h2>Common mistake</h2><p>{} creates an empty dictionary, not an empty set. Use set() for an empty set.</p><h2>Remember this</h2><p>Set = unique items; no positional indexing; use set() for empty.</p></article>

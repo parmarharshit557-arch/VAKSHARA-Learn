@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "What does score = 85 do?",
+    "promptHi": "score = 85 kya karta hai?",
+    "options": [
+      "Assigns 85 to the name score",
+      "Checks whether score equals 85",
+      "Prints 85 automatically",
+      "Deletes score"
+    ],
+    "optionsHi": [
+      "score name ko 85 assign karta hai",
+      "Check karta hai score 85 ke equal hai",
+      "85 automatically print karta hai",
+      "score delete karta hai"
+    ],
+    "answer": 0,
+    "whyEn": "A single equals sign is assignment in Python.",
+    "whyHi": "Python mein single equals sign assignment ke liye hota hai."
+  },
+  {
+    "prompt": "Which variable name follows common Python naming style?",
+    "promptHi": "Kaunsa variable name common Python style follow karta hai?",
+    "options": [
+      "total_marks",
+      "total-marks",
+      "2marks",
+      "class"
+    ],
+    "optionsHi": [
+      "total_marks",
+      "total-marks",
+      "2marks",
+      "class"
+    ],
+    "answer": 0,
+    "whyEn": "snake_case uses lowercase words separated by underscores.",
+    "whyHi": "snake_case mein lowercase words underscore se separate hote hain."
+  },
+  {
+    "prompt": "Are score and Score the same variable name?",
+    "promptHi": "Kya score aur Score same variable name hain?",
+    "options": [
+      "No, Python names are case-sensitive",
+      "Yes, always",
+      "Only inside loops",
+      "Only in Colab"
+    ],
+    "optionsHi": [
+      "Nahi, Python names case-sensitive hain",
+      "Haan, hamesha",
+      "Sirf loops mein",
+      "Sirf Colab mein"
+    ],
+    "answer": 0,
+    "whyEn": "Uppercase and lowercase letters make different identifiers.",
+    "whyHi": "Uppercase aur lowercase letters alag identifiers banate hain."
+  },
+  {
+    "prompt": "Can a Python variable be assigned a value of a different type later?",
+    "promptHi": "Kya Python variable ko baad mein different type ki value assign kar sakte hain?",
+    "options": [
+      "Yes",
+      "No, never",
+      "Only if it starts as a string",
+      "Only inside a list"
+    ],
+    "optionsHi": [
+      "Haan",
+      "Nahi, kabhi nahi",
+      "Sirf string se start ho toh",
+      "Sirf list ke andar"
+    ],
+    "answer": 0,
+    "whyEn": "Python is dynamically typed; a name can later be bound to a value of another type.",
+    "whyHi": "Python dynamically typed hai; same name baad mein doosre type ki value ko refer kar sakta hai."
+  },
+  {
+    "prompt": "What is the main benefit of a descriptive variable name?",
+    "promptHi": "Descriptive variable name ka main benefit kya hai?",
+    "options": [
+      "It makes the code easier to understand",
+      "It makes Python run at double speed",
+      "It removes the need for values",
+      "It converts all values to text"
+    ],
+    "optionsHi": [
+      "Code samajhna easy hota hai",
+      "Python double speed se run hota hai",
+      "Values ki zaroorat khatam hoti hai",
+      "Saari values text ban jaati hain"
+    ],
+    "answer": 0,
+    "whyEn": "Names such as total_marks communicate the purpose of a value.",
+    "whyHi": "total_marks jaise names value ka purpose clearly batate hain."
+  }
+]

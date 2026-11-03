@@ -1,0 +1,7 @@
+<article class="vakshara-lesson"><p class="eyebrow">BILKUL BASIC SE</p><h1>Random numbers, choices and seed</h1><p>random module pseudo-random values generate karta hai aur sequence se selection/shuffle kar sakta hai. seed() same setup par sequence repeatable banata hai; security-grade randomness nahi deta.</p><h2>Real-life example</h2><p>random module shuffled deck se card nikalne jaisa hai. Ek card choose, bina replacement multiple select, ya deck shuffle kar sakte ho. Seed demo ko repeatable pseudo-random sequence deta hai.</p><h2>Step-by-step samjhaav</h2><ol><li>seed(7) pseudo-random sequence ka starting point set karta hai.</li><li>choice() list se ek item select karta hai.</li><li>shuffle() original list ko in-place rearrange karta hai; length 3 rehti hai.</li></ol><h2>Python example</h2><pre><code>import random
+random.seed(7)
+values = [&quot;red&quot;, &quot;blue&quot;, &quot;green&quot;]
+print(random.choice(values))
+random.shuffle(values)
+print(len(values))</code></pre><h2>Expected output</h2><pre>A repeatable choice for this seed
+3</pre><h2>Common mistake</h2><p>random.shuffle(items) None return karta hai. Isse statement ki tarah call karo, phir changed list use karo.</p><h2>Yaad rakho</h2><p>choice = ek; sample = bina replacement multiple; shuffle = original order in-place change.</p></article>

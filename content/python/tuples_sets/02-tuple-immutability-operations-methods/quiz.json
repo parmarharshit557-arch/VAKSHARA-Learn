@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "Can you assign a new value to point[0] when point is a tuple?",
+    "options": [
+      "Yes",
+      "No",
+      "Only for numbers",
+      "Only if length is 1"
+    ],
+    "answer": 1,
+    "whyEn": "Tuple item positions cannot be reassigned.",
+    "whyHi": "Tuple ke item positions par new value assign nahi kar sakte.",
+    "promptHi": "Agar point ek tuple hai, toh kya point[0] ko nayi value assign kar sakte hain?",
+    "optionsHi": [
+      "Haan",
+      "Nahi",
+      "Sirf numbers ke liye",
+      "Sirf jab length 1 ho"
+    ]
+  },
+  {
+    "prompt": "What does tuple.count(x) return?",
+    "options": [
+      "First index of x",
+      "Number of occurrences of x",
+      "A sorted tuple",
+      "Whether x exists"
+    ],
+    "answer": 1,
+    "whyEn": "count() returns the number of occurrences.",
+    "whyHi": "count() x kitni baar aaya hai, woh batata hai.",
+    "promptHi": "tuple.count(x) kya return karta hai?",
+    "optionsHi": [
+      "First index of x",
+      "Number of occurrences of x",
+      "A sorted tuple",
+      "Whether x exists"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about tuple immutability, operations and methods?",
+    "promptHi": "Tuple immutability, operations and methods ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "Tuple item assignment is not allowed.",
+      "Tuples are commonly written with commas; parentheses improve clarity.",
+      "A one-item tuple needs a trailing comma: (5,).",
+      "Indexing and slicing work like other sequences."
+    ],
+    "optionsHi": [
+      "Tuple item assignment allowed nahi hai.",
+      "Tuple comma se define hoti hai; parentheses readability badhate hain.",
+      "One-item tuple ke liye trailing comma zaroori hai: (5,).",
+      "Indexing aur slicing doosri sequences ki tarah hoti hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in Tuple immutability, operations and methods. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Tuple immutability, operations and methods ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "Tuples are commonly written with commas; parentheses improve clarity.",
+      "A contained list can still be mutated because the list itself is mutable.",
+      "A one-item tuple needs a trailing comma: (5,).",
+      "Indexing and slicing work like other sequences."
+    ],
+    "optionsHi": [
+      "Tuple comma se define hoti hai; parentheses readability badhate hain.",
+      "Tuple ke andar list ho toh list mutate ho sakti hai, kyunki list khud mutable hai.",
+      "One-item tuple ke liye trailing comma zaroori hai: (5,).",
+      "Indexing aur slicing doosri sequences ki tarah hoti hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Tuple immutability, operations and methods. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Tuple immutability, operations and methods ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "Tuples are commonly written with commas; parentheses improve clarity.",
+      "A one-item tuple needs a trailing comma: (5,).",
+      "count() counts occurrences; index() finds the first matching position.",
+      "Indexing and slicing work like other sequences."
+    ],
+    "optionsHi": [
+      "Tuple comma se define hoti hai; parentheses readability badhate hain.",
+      "One-item tuple ke liye trailing comma zaroori hai: (5,).",
+      "count() occurrences count karta hai; index() first matching position deta hai.",
+      "Indexing aur slicing doosri sequences ki tarah hoti hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Tuple immutability, operations and methods. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Tuple immutability, operations and methods ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

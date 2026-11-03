@@ -1,0 +1,6 @@
+<article class="vakshara-lesson"><p class="eyebrow">BILKUL BASIC SE</p><h1>Searching and testing text</h1><p>Search methods text ko locate karte hain ya check karte hain ki string kisi pattern ko follow karti hai. Match na mile toh find() -1 deta hai; index() match na milne par ValueError raise karta hai.</p><h2>Real-life example</h2><p>Text search page par word dhoondhne jaisa hai. Validation form entry ko accept karne se pehle rule check karna hai.</p><h2>Step-by-step samjhaav</h2><ol><li>in check karta hai ki substring present hai ya nahi.</li><li>endswith() string ka ending check karta hai.</li><li>find() first match ka index deta hai; match na mile toh -1.</li></ol><h2>Python example</h2><pre><code>email = &quot;asha@example.com&quot;
+print(&quot;@&quot; in email)
+print(email.endswith(&quot;.com&quot;))
+print(email.find(&quot;example&quot;))</code></pre><h2>Expected output</h2><pre>True
+True
+5</pre><h2>Common mistake</h2><p>find() -1 bhi return kar sakta hai. -1 ko valid index mat samjho; pehle result check karo.</p><h2>Yaad rakho</h2><p>Search poochta hai “kahan / hai ya nahi?”; validation poochta hai “kya text mera rule follow karta hai?”</p></article>

@@ -1,0 +1,7 @@
+<article class="vakshara-lesson"><p class="eyebrow">BILKUL BASIC SE</p><h1>Sorting and reversing lists</h1><p>Sorting values ko order mein lagati hai; reversing sirf current order ulta karti hai. sort() original list ko in-place change karke None return karta hai; sorted() nayi sorted list deta hai.</p><h2>Real-life example</h2><p>Sorting books ko alphabetical order mein lagana hai. Reverse ka matlab current order ko ulta kar dena. Dono alag actions hain.</p><h2>Step-by-step samjhaav</h2><ol><li>sorted(scores) nayi sorted list return karta hai.</li><li>sorted() ke baad original scores unchanged hai.</li><li>sort() original list ko in-place sort karta hai.</li></ol><h2>Python example</h2><pre><code>scores = [40, 10, 30, 20]
+print(sorted(scores))
+print(scores)
+scores.sort()
+print(scores)</code></pre><h2>Expected output</h2><pre>[10, 20, 30, 40]
+[40, 10, 30, 20]
+[10, 20, 30, 40]</pre><h2>Common mistake</h2><p>sort() list change karta hai aur None return karta hai. scores = scores.sort() mat likho.</p><h2>Yaad rakho</h2><p>sorted() nayi list deta hai; list.sort() existing list change karta hai.</p></article>

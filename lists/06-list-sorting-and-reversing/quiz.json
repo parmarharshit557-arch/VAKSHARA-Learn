@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "What does my_list.sort() return?",
+    "options": [
+      "The sorted list",
+      "None",
+      "The first item",
+      "A tuple"
+    ],
+    "answer": 1,
+    "whyEn": "sort() sorts in place and returns None.",
+    "whyHi": "sort() in-place sort karta hai aur None return karta hai.",
+    "promptHi": "my_list.sort() kya return karta hai?",
+    "optionsHi": [
+      "Sorted list",
+      "None",
+      "Pehla item",
+      "Ek tuple"
+    ]
+  },
+  {
+    "prompt": "Which function returns a new sorted list?",
+    "options": [
+      "reverse()",
+      "sort()",
+      "sorted()",
+      "pop()"
+    ],
+    "answer": 2,
+    "whyEn": "sorted(iterable) builds and returns a new sorted list.",
+    "whyHi": "sorted() iterable se nayi sorted list banata hai.",
+    "promptHi": "Kaunsa function ek nayi sorted list return karta hai?",
+    "optionsHi": [
+      "reverse()",
+      "sort()",
+      "sorted()",
+      "pop()"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about sorting and reversing lists?",
+    "promptHi": "Sorting and reversing lists ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "Lists use square brackets: [ ].",
+      "list.sort() mutates the list and returns None.",
+      "Indexing starts at 0; negative indexing counts from the end.",
+      "A valid indexed assignment changes the existing list item."
+    ],
+    "optionsHi": [
+      "Lists square brackets [ ] use karti hain.",
+      "list.sort() original list mutate karta hai aur None return karta hai.",
+      "Index 0 se start hota hai; negative index end se count karta hai.",
+      "Valid index par assignment list ka existing item change karta hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Sorting and reversing lists. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Sorting and reversing lists ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "Lists use square brackets: [ ].",
+      "Indexing starts at 0; negative indexing counts from the end.",
+      "sorted(list) returns a new list.",
+      "A valid indexed assignment changes the existing list item."
+    ],
+    "optionsHi": [
+      "Lists square brackets [ ] use karti hain.",
+      "Index 0 se start hota hai; negative index end se count karta hai.",
+      "sorted(list) nayi list return karta hai.",
+      "Valid index par assignment list ka existing item change karta hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Sorting and reversing lists. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Sorting and reversing lists ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "Lists use square brackets: [ ].",
+      "Indexing starts at 0; negative indexing counts from the end.",
+      "A valid indexed assignment changes the existing list item.",
+      "reverse() reverses current order; it does not sort values."
+    ],
+    "optionsHi": [
+      "Lists square brackets [ ] use karti hain.",
+      "Index 0 se start hota hai; negative index end se count karta hai.",
+      "Valid index par assignment list ka existing item change karta hai.",
+      "reverse() current order ulta karta hai; sorting nahi."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in Sorting and reversing lists. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Sorting and reversing lists ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

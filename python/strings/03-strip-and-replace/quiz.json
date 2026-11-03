@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "Does \"  hello  world  \".strip() remove the spaces between hello and world?",
+    "options": [
+      "Yes",
+      "No",
+      "Only one middle space",
+      "It removes every letter"
+    ],
+    "answer": 1,
+    "whyEn": "strip() removes characters from the ends, not from the middle.",
+    "whyHi": "strip() sirf ends se characters hatata hai, beech se nahi.",
+    "promptHi": "Kya \"  hello  world  \".strip() hello aur world ke beech ke spaces hata deta hai?",
+    "optionsHi": [
+      "Haan",
+      "Nahi",
+      "Sirf beech ka ek space",
+      "Ye har letter hata deta hai"
+    ]
+  },
+  {
+    "prompt": "What does text.replace(\"cat\", \"dog\") return?",
+    "options": [
+      "It edits the original string in place",
+      "A new string with matches replaced",
+      "A list",
+      "None"
+    ],
+    "answer": 1,
+    "whyEn": "Strings are immutable, so replace() returns a new string.",
+    "whyHi": "String immutable hai, isliye replace() naya string return karta hai.",
+    "promptHi": "text.replace(\"cat\", \"dog\") kya return karta hai?",
+    "optionsHi": [
+      "Ye original string ko in-place edit karta hai",
+      "Matches replace karke ek nayi string return karta hai",
+      "Ek list",
+      "None"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about trimming and replacing text?",
+    "promptHi": "Trimming and replacing text ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "strip(), lstrip() and rstrip() affect the ends.",
+      "Strings are immutable: a method returns a new string rather than changing the original.",
+      "Positive indices start at 0; negative indices count from the end.",
+      "Slicing uses start:stop:step and excludes stop."
+    ],
+    "optionsHi": [
+      "strip(), lstrip() aur rstrip() string ke ends par kaam karte hain.",
+      "String immutable hai: method naya string deta hai, original ko modify nahi karta.",
+      "Positive index 0 se start; negative index end se count karta hai.",
+      "Slicing mein stop index exclude hota hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in Trimming and replacing text. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Trimming and replacing text ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "Strings are immutable: a method returns a new string rather than changing the original.",
+      "replace(old, new) returns a new string.",
+      "Positive indices start at 0; negative indices count from the end.",
+      "Slicing uses start:stop:step and excludes stop."
+    ],
+    "optionsHi": [
+      "String immutable hai: method naya string deta hai, original ko modify nahi karta.",
+      "replace(old, new) naya string return karta hai.",
+      "Positive index 0 se start; negative index end se count karta hai.",
+      "Slicing mein stop index exclude hota hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Trimming and replacing text. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Trimming and replacing text ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "Strings are immutable: a method returns a new string rather than changing the original.",
+      "Positive indices start at 0; negative indices count from the end.",
+      "removeprefix() and removesuffix() remove exact prefixes or suffixes.",
+      "Slicing uses start:stop:step and excludes stop."
+    ],
+    "optionsHi": [
+      "String immutable hai: method naya string deta hai, original ko modify nahi karta.",
+      "Positive index 0 se start; negative index end se count karta hai.",
+      "removeprefix() aur removesuffix() exact prefix/suffix remove karte hain.",
+      "Slicing mein stop index exclude hota hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Trimming and replacing text. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Trimming and replacing text ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

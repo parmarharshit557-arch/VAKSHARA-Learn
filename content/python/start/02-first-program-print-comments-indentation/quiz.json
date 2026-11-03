@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "What does print() do?",
+    "promptHi": "print() kya karta hai?",
+    "options": [
+      "Displays values in the output stream",
+      "Creates a new folder",
+      "Converts every value to int",
+      "Stops Python permanently"
+    ],
+    "optionsHi": [
+      "Output mein values display karta hai",
+      "Naya folder banata hai",
+      "Har value ko int banata hai",
+      "Python ko permanently stop karta hai"
+    ],
+    "answer": 0,
+    "whyEn": "print() writes the supplied objects to the output stream.",
+    "whyHi": "print() di hui objects ko output stream mein display karta hai."
+  },
+  {
+    "prompt": "Which is a valid string literal?",
+    "promptHi": "Kaunsa valid string literal hai?",
+    "options": [
+      "\"Python\"",
+      "Python without quotes",
+      "= Python",
+      "print Python"
+    ],
+    "optionsHi": [
+      "\"Python\"",
+      "Bina quotes Python",
+      "= Python",
+      "print Python"
+    ],
+    "answer": 0,
+    "whyEn": "A string literal is text written inside quotes.",
+    "whyHi": "String literal text hota hai jo quotes ke andar likha jata hai."
+  },
+  {
+    "prompt": "What does # do in ordinary Python code?",
+    "promptHi": "Normal Python code mein # kya karta hai?",
+    "options": [
+      "Starts a comment",
+      "Starts a loop",
+      "Creates a number",
+      "Ends the program"
+    ],
+    "optionsHi": [
+      "Comment start karta hai",
+      "Loop start karta hai",
+      "Number create karta hai",
+      "Program end karta hai"
+    ],
+    "answer": 0,
+    "whyEn": "A comment explains code and is ignored by Python as an executable statement.",
+    "whyHi": "Comment code samjhata hai; Python ise executable statement ki tarah run nahi karta."
+  },
+  {
+    "prompt": "Why is indentation important after an if statement?",
+    "promptHi": "if statement ke baad indentation important kyun hai?",
+    "options": [
+      "It marks the statements inside the if block",
+      "It changes strings into numbers",
+      "It makes code run twice",
+      "It is only decoration"
+    ],
+    "optionsHi": [
+      "if block ke andar ki statements mark karti hai",
+      "Strings ko numbers banati hai",
+      "Code ko do baar run karati hai",
+      "Sirf decoration hai"
+    ],
+    "answer": 0,
+    "whyEn": "Python uses indentation to define the suite belonging to a compound statement.",
+    "whyHi": "Python indentation se compound statement ka block define karta hai."
+  },
+  {
+    "prompt": "In a simple script, what is the usual execution order?",
+    "promptHi": "Simple script mein usual execution order kya hota hai?",
+    "options": [
+      "Top to bottom",
+      "Bottom to top",
+      "Alphabetical order",
+      "Random order every line"
+    ],
+    "optionsHi": [
+      "Top se bottom",
+      "Bottom se top",
+      "Alphabetical order",
+      "Har line random order mein"
+    ],
+    "answer": 0,
+    "whyEn": "Statements execute in source order unless control-flow statements alter the path.",
+    "whyHi": "Statements source order mein execute hote hain, jab tak control-flow unka path change na kare."
+  }
+]

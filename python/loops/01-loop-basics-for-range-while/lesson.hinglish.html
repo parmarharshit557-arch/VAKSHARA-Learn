@@ -1,0 +1,12 @@
+<article class="vakshara-lesson"><p class="eyebrow">BILKUL BASIC SE</p><h1>Loop basics: for, range and while</h1><p>Loop instructions ko repeat karta hai. Sequence ya range ke items par chalna ho toh for; condition ke badalne tak repeat karna ho toh while use hota hai.</p><h2>Real-life example</h2><p>Loop attendance sheet par har student ka naam check karne jaisa hai. Har item ke liye same action repeat hota hai.</p><h2>Step-by-step samjhaav</h2><ol><li>range(1, 4) se 1, 2, 3 milte hain; 4 include nahi hota.</li><li>for loop ek-ek value lekar print karta hai.</li><li>while tab tak repeat hota hai jab tak count &lt;= 3 True hai; count += 1 loop ko end ki taraf le jaata hai.</li></ol><h2>Python example</h2><pre><code>for number in range(1, 4):
+    print(number)
+
+count = 1
+while count &lt;= 3:
+    print(count)
+    count += 1</code></pre><h2>Expected output</h2><pre>1
+2
+3
+1
+2
+3</pre><h2>Common mistake</h2><p>while loop mein aisi value update honi chahiye jo condition ko ek din False bana de. Warna infinite loop ho sakta hai.</p><h2>Yaad rakho</h2><p>Sequence ho toh for useful; repeat karna condition par depend ho toh while useful.</p></article>

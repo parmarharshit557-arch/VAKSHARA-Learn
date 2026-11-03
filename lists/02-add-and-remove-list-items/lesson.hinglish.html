@@ -1,0 +1,7 @@
+<article class="vakshara-lesson"><p class="eyebrow">BILKUL BASIC SE</p><h1>Add and remove list items</h1><p>List ka size grow aur shrink kar sakta hai. append() ek object add karta hai, extend() iterable ke items add karta hai, insert() position par add karta hai; remove/pop/del/clear alag tarikon se remove karte hain.</p><h2>Real-life example</h2><p>Guest list socho. append ek guest end mein add karta hai; extend doosri group ke saare guests add karta hai; insert chosen position par rakhta hai. Removal methods alag situations handle karte hain.</p><h2>Step-by-step samjhaav</h2><ol><li>append() ek object end mein add karta hai.</li><li>extend() second list ke har item ko add karta hai.</li><li>pop() last item remove karke return karta hai.</li></ol><h2>Python example</h2><pre><code>items = [&quot;pen&quot;, &quot;book&quot;]
+items.append(&quot;bag&quot;)
+items.extend([&quot;bottle&quot;, &quot;lunchbox&quot;])
+removed = items.pop()
+print(items)
+print(removed)</code></pre><h2>Expected output</h2><pre>[&#x27;pen&#x27;, &#x27;book&#x27;, &#x27;bag&#x27;, &#x27;bottle&#x27;]
+lunchbox</pre><h2>Common mistake</h2><p>append([4, 5]) poori list ko ek nested item banata hai; extend([4, 5]) 4 aur 5 ko alag add karta hai.</p><h2>Yaad rakho</h2><p>append ek item; extend multiple; insert position; pop remove karke value return.</p></article>

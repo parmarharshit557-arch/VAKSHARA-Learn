@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "After b = a, which is normally true for a list?",
+    "options": [
+      "b is a separate copy",
+      "a and b refer to the same list",
+      "b is a tuple",
+      "a becomes empty"
+    ],
+    "answer": 1,
+    "whyEn": "Assignment binds another name to the same list object.",
+    "whyHi": "Assignment se doosra name same list object ko refer karta hai.",
+    "promptHi": "List ke case mein b = a ke baad normally kya true hota hai?",
+    "optionsHi": [
+      "b ek alag copy hai",
+      "a aur b same list ko refer karte hain",
+      "b ek tuple hai",
+      "a empty ho jati hai"
+    ]
+  },
+  {
+    "prompt": "What kind of copy does list.copy() create?",
+    "options": [
+      "Deep copy",
+      "Shallow copy",
+      "No copy",
+      "Immutable copy"
+    ],
+    "answer": 1,
+    "whyEn": "copy() makes a shallow copy of the list.",
+    "whyHi": "copy() list ki shallow copy banata hai.",
+    "promptHi": "list.copy() kis type ki copy banata hai?",
+    "optionsHi": [
+      "Deep copy",
+      "Shallow copy",
+      "No copy",
+      "Immutable copy"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about aliasing and copying lists?",
+    "promptHi": "Aliasing and copying lists ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "b = a makes b refer to the same list object as a.",
+      "Lists use square brackets: [ ].",
+      "Indexing starts at 0; negative indexing counts from the end.",
+      "A valid indexed assignment changes the existing list item."
+    ],
+    "optionsHi": [
+      "b = a se b aur a same list object ko refer karte hain.",
+      "Lists square brackets [ ] use karti hain.",
+      "Index 0 se start hota hai; negative index end se count karta hai.",
+      "Valid index par assignment list ka existing item change karta hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in Aliasing and copying lists. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Aliasing and copying lists ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "Lists use square brackets: [ ].",
+      "a.copy() creates a shallow copy.",
+      "Indexing starts at 0; negative indexing counts from the end.",
+      "A valid indexed assignment changes the existing list item."
+    ],
+    "optionsHi": [
+      "Lists square brackets [ ] use karti hain.",
+      "a.copy() shallow copy banata hai.",
+      "Index 0 se start hota hai; negative index end se count karta hai.",
+      "Valid index par assignment list ka existing item change karta hai."
+    ],
+    "answer": 1,
+    "whyEn": "This is one of the rules covered in Aliasing and copying lists. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Aliasing and copying lists ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "Lists use square brackets: [ ].",
+      "Indexing starts at 0; negative indexing counts from the end.",
+      "A shallow copy does not recursively copy nested mutable objects.",
+      "A valid indexed assignment changes the existing list item."
+    ],
+    "optionsHi": [
+      "Lists square brackets [ ] use karti hain.",
+      "Index 0 se start hota hai; negative index end se count karta hai.",
+      "Shallow copy nested mutable objects ko recursively copy nahi karti.",
+      "Valid index par assignment list ka existing item change karta hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in Aliasing and copying lists. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye Aliasing and copying lists ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

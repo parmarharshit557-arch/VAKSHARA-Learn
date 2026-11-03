@@ -1,0 +1,12 @@
+{
+  "officialDocs": [
+    [
+      "Python tutorial — if statements",
+      "https://docs.python.org/3.14/tutorial/controlflow.html#if-statements"
+    ],
+    [
+      "Built-in types — Truth Value Testing",
+      "https://docs.python.org/3.14/library/stdtypes.html#truth-value-testing"
+    ]
+  ]
+}

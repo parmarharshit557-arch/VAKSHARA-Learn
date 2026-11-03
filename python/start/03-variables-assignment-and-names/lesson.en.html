@@ -1,0 +1,11 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>Variables: storing and reusing information</h1><p>A variable gives a value a name so your program can use it again. Learn assignment, reassignment, naming rules, case sensitivity and Python’s dynamic typing before moving to detailed data types.</p><h2>Real-life example</h2><p>A variable is like a labelled box in your notes. The label is the name; what is currently inside is the value. You can replace the contents later, but the label lets you refer to it again.</p><h2>Step-by-step explanation</h2><ol><li>student_name is a name bound to the string value &quot;Asha&quot;.</li><li>score first refers to the integer 72.</li><li>The next assignment replaces the value associated with score with 85.</li><li>The final assignment binds score to a string. Python does not require you to declare the type first.</li></ol><h2>Python example</h2><pre><code>student_name = &quot;Asha&quot;
+score = 72
+print(student_name, score)
+
+score = 85
+print(score)
+
+score = &quot;excellent&quot;
+print(score)</code></pre><h2>Expected output</h2><pre>Asha 72
+85
+excellent</pre><h2>Common mistake</h2><p>Do not use = when you mean “compare”. Use == for comparison. Also avoid vague names such as x when a descriptive name like total_marks makes the code easier to understand.</p><h2>Remember this</h2><p>name = value means “give this name this value”. Python variables are names bound to objects; the labelled-box picture is a beginner-friendly model.</p></article>

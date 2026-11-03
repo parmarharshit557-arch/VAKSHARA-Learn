@@ -1,0 +1,5 @@
+<article class="vakshara-lesson"><p class="eyebrow">BILKUL BASIC SE</p><h1>Common list mistakes</h1><p>List bugs aksar in-place methods ke return value ko galat samajhne ya iterate karte waqt same list remove/change karne se aate hain. Bade programs se pehle safe patterns samjhein.</p><h2>Real-life example</h2><p>Moving queue mein chalte hue beech se item remove karoge toh baaki positions shift ho sakti hain. Safer approach nayi filtered list banana hai.</p><h2>Step-by-step samjhaav</h2><ol><li>Comprehension original list ke har item ko visit karta hai.</li><li>2 se divide karne par remainder 0 ho wahi values rakhi jaati hain.</li><li>Nayi list banti hai, original unchanged rehti hai.</li></ol><h2>Python example</h2><pre><code>numbers = [1, 2, 3, 4, 5, 6]
+evens = [n for n in numbers if n % 2 == 0]
+print(evens)
+print(numbers)</code></pre><h2>Expected output</h2><pre>[2, 4, 6]
+[1, 2, 3, 4, 5, 6]</pre><h2>Common mistake</h2><p>Same list par loop chalate waqt usi list se items delete karna avoid karo; indices shift ho sakte hain.</p><h2>Yaad rakho</h2><p>Filtering mein loop ke beech original list edit karne ke bajaye nayi list banana aksar safer hai.</p></article>

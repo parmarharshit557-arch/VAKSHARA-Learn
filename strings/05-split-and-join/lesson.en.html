@@ -1,0 +1,5 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>Split and join strings</h1><p>split() turns one string into a list of pieces. join() does the reverse: it combines an iterable of strings using the separator on which it is called.</p><h2>Real-life example</h2><p>split() is like cutting a sentence at spaces into word cards. join() is like arranging those cards and connecting them with a separator.</p><h2>Step-by-step explanation</h2><ol><li>split() returns a list of words.</li><li>The list now has three string items.</li><li>The separator string &quot; | &quot; joins those items into one string.</li></ol><h2>Python example</h2><pre><code>sentence = &quot;learn Python daily&quot;
+words = sentence.split()
+print(words)
+print(&quot; | &quot;.join(words))</code></pre><h2>Expected output</h2><pre>[&#x27;learn&#x27;, &#x27;Python&#x27;, &#x27;daily&#x27;]
+learn | Python | daily</pre><h2>Common mistake</h2><p>join() is called on the separator string, and the items must be strings. Use map(str, values) when joining numbers.</p><h2>Remember this</h2><p>split: one string becomes a list; join: a list of strings becomes one string.</p></article>

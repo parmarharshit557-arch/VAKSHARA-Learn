@@ -1,0 +1,97 @@
+[
+  {
+    "prompt": "What is the result of \"Py\" + \"thon\"?",
+    "options": [
+      "Py thon",
+      "Python",
+      "Error",
+      "Py+thon"
+    ],
+    "answer": 1,
+    "whyEn": "Both operands are strings, so + concatenates them.",
+    "whyHi": "Dono operands strings hain, isliye + unhe join karega.",
+    "promptHi": "\"Py\" + \"thon\" ka result kya hoga?",
+    "optionsHi": [
+      "Py thon",
+      "Python",
+      "Error",
+      "Py+thon"
+    ]
+  },
+  {
+    "prompt": "What formula gives the area of a rectangle?",
+    "options": [
+      "length + width",
+      "2 × (length + width)",
+      "length × width",
+      "length ÷ width"
+    ],
+    "answer": 2,
+    "whyEn": "Area is the product of the two side lengths.",
+    "whyHi": "Rectangle ka area dono sides ko multiply karke milta hai.",
+    "promptHi": "Rectangle ka area nikalne ka formula kaunsa hai?",
+    "optionsHi": [
+      "length + width",
+      "2 × (length + width)",
+      "length × width",
+      "length ÷ width"
+    ]
+  },
+  {
+    "prompt": "Which statement is correct about string concatenation and a first calculation?",
+    "promptHi": "String concatenation and a first calculation ke baare mein kaunsa statement sahi hai?",
+    "options": [
+      "Use type(value) to inspect a value.",
+      "25 is an int; \"25\" is a str.",
+      "\"Hello\" + \"World\" joins text.",
+      "Python is dynamically typed: you assign a value without declaring a type first."
+    ],
+    "optionsHi": [
+      "type(value) se value ka type check hota hai.",
+      "25 integer hai, jabki \"25\" text/string hai.",
+      "\"Hello\" + \"World\" text ko jodta hai.",
+      "Python dynamically typed hai: value assign karte hi variable us value ko refer karta hai."
+    ],
+    "answer": 2,
+    "whyEn": "This is one of the rules covered in String concatenation and a first calculation. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye String concatenation and a first calculation ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which is another important rule to remember?",
+    "promptHi": "Yaad rakhne layak ek aur important rule kaunsa hai?",
+    "options": [
+      "Use type(value) to inspect a value.",
+      "25 is an int; \"25\" is a str.",
+      "Python is dynamically typed: you assign a value without declaring a type first.",
+      "Numeric addition is different from string concatenation."
+    ],
+    "optionsHi": [
+      "type(value) se value ka type check hota hai.",
+      "25 integer hai, jabki \"25\" text/string hai.",
+      "Python dynamically typed hai: value assign karte hi variable us value ko refer karta hai.",
+      "String concatenation aur numeric addition alag operations hain."
+    ],
+    "answer": 3,
+    "whyEn": "This is one of the rules covered in String concatenation and a first calculation. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye String concatenation and a first calculation ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  },
+  {
+    "prompt": "Which point helps you avoid a common mistake?",
+    "promptHi": "Common mistake se bachne mein kaunsi baat help karti hai?",
+    "options": [
+      "A rectangle’s area is length × width.",
+      "Use type(value) to inspect a value.",
+      "25 is an int; \"25\" is a str.",
+      "Python is dynamically typed: you assign a value without declaring a type first."
+    ],
+    "optionsHi": [
+      "Rectangle ka area = length × width.",
+      "type(value) se value ka type check hota hai.",
+      "25 integer hai, jabki \"25\" text/string hai.",
+      "Python dynamically typed hai: value assign karte hi variable us value ko refer karta hai."
+    ],
+    "answer": 0,
+    "whyEn": "This is one of the rules covered in String concatenation and a first calculation. Connect it to the worked example and notice what changes in the output.",
+    "whyHi": "Ye String concatenation and a first calculation ka important rule hai. Isse worked example ke saath connect karo aur dekho output mein kya change hota hai."
+  }
+]

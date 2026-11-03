@@ -1,0 +1,8 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>Trace loops, counters and accumulators</h1><p>A dry run follows variable values one iteration at a time. A counter tracks how many events occur; an accumulator keeps a running result such as a sum.</p><h2>Real-life example</h2><p>A counter is a tally mark that counts how many things happened. An accumulator is a running total in a notebook where you keep adding each new amount.</p><h2>Step-by-step explanation</h2><ol><li>Start total at 0.</li><li>Add 2: total becomes 2.</li><li>Add 4: total becomes 6; add 6: total becomes 12.</li></ol><h2>Python example</h2><pre><code>total = 0
+for number in [2, 4, 6]:
+    total += number
+    print(&quot;running total:&quot;, total)
+print(&quot;final:&quot;, total)</code></pre><h2>Expected output</h2><pre>running total: 2
+running total: 6
+running total: 12
+final: 12</pre><h2>Common mistake</h2><p>If total is meant to grow, do not reset it to 0 inside the loop. That would erase earlier work on every iteration.</p><h2>Remember this</h2><p>Counter usually changes by 1; accumulator collects a running result.</p></article>

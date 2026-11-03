@@ -1,0 +1,6 @@
+<article class="vakshara-lesson"><p class="eyebrow">START FROM ZERO</p><h1>List slicing</h1><p>Slicing selects a range of items and returns a new list. The stop index is excluded, and a step can skip positions or reverse the direction.</p><h2>Real-life example</h2><p>Imagine a row of five seats. A slice selects a continuous set of seats by start and stop positions; the stop seat is not included.</p><h2>Step-by-step explanation</h2><ol><li>[1:4] starts at index 1 and stops before 4.</li><li>[:3] uses the default start 0 and stops before 3.</li><li>[::2] visits every second item.</li></ol><h2>Python example</h2><pre><code>colors = [&quot;red&quot;, &quot;blue&quot;, &quot;green&quot;, &quot;gold&quot;, &quot;white&quot;]
+print(colors[1:4])
+print(colors[:3])
+print(colors[::2])</code></pre><h2>Expected output</h2><pre>[&#x27;blue&#x27;, &#x27;green&#x27;, &#x27;gold&#x27;]
+[&#x27;red&#x27;, &#x27;blue&#x27;, &#x27;green&#x27;]
+[&#x27;red&#x27;, &#x27;green&#x27;, &#x27;white&#x27;]</pre><h2>Common mistake</h2><p>Remember that the stop index is excluded. This is why items[0:3] gives three items, not four.</p><h2>Remember this</h2><p>slice syntax is [start:stop:step]; the stop is a boundary, not a selected index.</p></article>
