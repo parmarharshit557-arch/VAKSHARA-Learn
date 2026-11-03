@@ -1,0 +1,18 @@
+VAKSHARA LEARN — V6 TEACHING REBUILD
+
+IMPORTANT: This package uses a NEW local address so it cannot accidentally show the older site still running on port 8000.
+
+WINDOWS:
+1. Extract this complete ZIP into a NEW folder. Do not extract over an older VAKSHARA folder.
+2. Open the extracted VAKSHARA-Learn-v6-TEACHING-REBUILD folder.
+3. Double-click START-VAKSHARA.bat.
+4. The correct address is http://127.0.0.1:8766/
+
+If Smart App Control blocks the .bat file:
+1. Open the vakshara_learn folder inside this extracted folder.
+2. Click File Explorer's address bar, type cmd and press Enter.
+3. Run: py -m http.server 8766 --bind 127.0.0.1
+4. Open: http://127.0.0.1:8766/
+
+If the browser address says :8000, you are looking at the older server, not this rebuild.
+Keep the Command Prompt window open while using the site.
